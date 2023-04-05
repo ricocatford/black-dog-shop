@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
 
 * {
     box-sizing: border-box;
@@ -19,14 +19,16 @@ body {
 
 .nav-logo-wrapper {
     padding: 0.25rem;
-    border: 2px solid #171717;
+    border: 3px solid #171717;
     border-radius: 50%;
 }
 
 .navbar-brand {
+    font-family: 'Bebas Neue', cursive;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
+    padding-bottom: 0;
 }
 
 .navbar-light .navbar-toggler {
@@ -47,8 +49,8 @@ body {
 }
 
 .custom-nav-link {
-    color: #171717;
     margin: 0 .5rem;
+    color: #171717;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .2s ease-in-out;
@@ -59,7 +61,9 @@ body {
 }
 
 .custom-nav-link:hover,
-.custom-nav-link:focus {
+.custom-nav-link:focus,
+.navbar .navbar-collapse form .btn:hover,
+.navbar .navbar-collapse form .btn:focus {
     color: #606060;
 }
 
@@ -70,6 +74,10 @@ body {
 
 .nav-icon {
     padding: 0.5rem;
+}
+
+.grand-total {
+    font-weight: 700;
 }
 
 /* ----- Buttons ----- */

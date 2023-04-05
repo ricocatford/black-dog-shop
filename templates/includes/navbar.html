@@ -1,0 +1,175 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <div class="nav-logo-wrapper">
+            <img src="{% static 'svg/logo.svg' %}" class="nav-logo"/>
+        </div>
+        <a class="navbar-brand mx-1" href="{% url 'home' %}">
+            Black Dog Shop
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="custom-nav-link highlight-nav-link" href="#">
+                        Sales
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Clothing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                T-Shirts
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Shirts
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Trousers
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Jackets
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Caps - Hats
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        Skateboard
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Completes
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Decks
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Trucks
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Wheels
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Bolts
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Griptape
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="custom-nav-link" href="#">
+                        Blog
+                    </a>
+                </li>
+                {% if request.user.is_authenticated %}
+                <li class="nav-item d-lg-none">
+                    <a class="custom-nav-link" href="#">
+                        My Account
+                    </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="custom-nav-link" href="{% url 'account_logout' %}">
+                        Logout
+                    </a>
+                </li>
+                {% else %}
+                <li class="nav-item d-lg-none">
+                    <a class="custom-nav-link" href="{% url 'account_signup' %}">
+                        Register
+                    </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a class="custom-nav-link" href="{% url 'account_login' %}">
+                        Login
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+            <div class="d-flex justify-content-between align-items-center">
+                <form class="d-flex w-100">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="q">
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="dropdown d-none d-lg-block">
+                        <a class="custom-nav-link" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user nav-icon"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {% if request.user.is_authenticated %}
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    My Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{% url 'account_logout' %}">
+                                    Logout
+                                </a>
+                            </li>
+                            {% else %}
+                            <li>
+                                <a class="dropdown-item" href="{% url 'account_signup' %}">
+                                    Register
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="{% url 'account_login' %}">
+                                    Login
+                                </a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </li>
+                    <li class="d-block grand-total">
+                        <a class="custom-nav-link d-flex align-items-center" href="#">
+                            <i class="fa-solid fa-shopping-bag nav-icon"></i>
+                            {% if grand_total %}
+                            {{ grand_total|floatformat:2 }}
+                            {% else %}
+                            £0.00
+                            {% endif %}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
