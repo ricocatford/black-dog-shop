@@ -9,3 +9,92 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+/* ----- Navbar ----- */
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-logo-wrapper {
+    padding: 0.25rem;
+    border: 2px solid #171717;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    padding: 0.25rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/static/svg/menu.svg);
+}
+
+.nav-item {
+    margin: .25rem 0;
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.custom-nav-link {
+    color: #171717;
+    margin: 0 .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+
+.highlight-nav-link {
+    color: #d60000;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link:focus {
+    color: #606060;
+}
+
+.nav-search-icon,
+.nav-icon {
+    font-size: 1.25em;
+}
+
+.nav-icon {
+    padding: 0.5rem;
+}
+
+/* ----- Buttons ----- */
+
+.custom-btn-primary {
+    padding: .5rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    background: red;
+}
+
+/* ----- Home page ----- */
+
+.custom-card {
+    text-align: right;
+    border: none;
+}
+
+.custom-card .card-title {
+    text-transform: uppercase;
+}
+
+/* ----- Another ----- */
+/* ----- Another ----- */
+/* ----- Another ----- */
+/* ----- Another ----- */

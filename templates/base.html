@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     {% block meta %}
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% endblock %}
 
     {% block extra_css %}
@@ -14,64 +14,119 @@
     {% endblock %}
 
     {% block corecss %}
-        {% load static %}
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     {% endblock %}
 
     {% block corejs %}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/6aecce4a80.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6aecce4a80.js" crossorigin="anonymous"></script>
     {% endblock %}
 
     <title>Black Dog Shop - Skateboards {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
-    <header class="container-fluid px-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand navbar-log0" href="#">Black Dog Shop</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-    </header>
-    {% if messages %}
-        <div class="message-container"></div>
-    {% endif %}
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="nav-logo-wrapper">
+                <img src="{% static 'svg/logo.svg' %}" class="nav-logo"/>
+            </div>
+            <a class="navbar-brand mx-1" href="#">
+                Black Dog Shop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="custom-nav-link highlight-nav-link" href="#">New</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Clothing
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">T-Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Trousers</a></li>
+                            <li><a class="dropdown-item" href="#">Jackets</a></li>
+                            <li><a class="dropdown-item" href="#">Caps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Skateboard
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Completes</a></li>
+                            <li><a class="dropdown-item" href="#">Decks</a></li>
+                            <li><a class="dropdown-item" href="#">Trucks</a></li>
+                            <li><a class="dropdown-item" href="#">Wheels</a></li>
+                            <li><a class="dropdown-item" href="#">Bolts</a></li>
+                            <li><a class="dropdown-item" href="#">Griptape</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="custom-nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="custom-nav-link" href="#">My Profile</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="custom-nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                    <form class="d-flex w-100">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">
+                            <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
+                        </button>
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="dropdown d-none d-lg-block">
+                            <a class="custom-nav-link" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-user nav-icon"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li class="d-block">
+                            <a class="custom-nav-link d-flex align-items-center" href="#">
+                                <i class="fa-solid fa-shopping-bag nav-icon"></i>£0.00
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    {% block page_header %}
-    {% endblock %}
+        </div>
+    </nav>
+</header>
+{% if messages %}
+<div class="message-container"></div>
+{% endif %}
 
-    {% block content %}
-    {% endblock %}
+{% block page_header %}
+{% endblock %}
 
-    {% block postload_js %}
-    {% endblock %}
-  </body>
+{% block content %}
+{% endblock %}
+
+{% block postload_js %}
+{% endblock %}
+</body>
 </html>
