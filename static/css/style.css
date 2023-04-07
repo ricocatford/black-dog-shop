@@ -80,15 +80,38 @@ body {
     font-weight: 700;
 }
 
+
+/* ----- Buttons ----- */
+
+.footer-icon {
+    color: #171717;
+    font-size: 1.75em;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    color: #606060;
+}
+
+
 /* ----- Buttons ----- */
 
 .custom-btn-primary {
+    border: 2px solid #e01709;
+    border-radius: .5rem;
     padding: .5rem 2rem;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-weight: 700;
-    background: red;
+    background: #e01709;
+    transition: all .2s ease-in-out;
+}
+
+.custom-btn-primary:hover,
+.custom-btn-primary:focus {
+    color: #e01709;
+    background: transparent;
 }
 
 /* ----- Home page ----- */
@@ -102,7 +125,7 @@ body {
     text-transform: uppercase;
 }
 
-/* ----- Another ----- */
+
 /* ----- Another ----- */
 /* ----- Another ----- */
 /* ----- Another ----- */

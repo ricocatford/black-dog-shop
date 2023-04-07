@@ -12,6 +12,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
                 <li class="nav-item">
@@ -121,7 +122,8 @@
             </ul>
             <div class="d-flex justify-content-between align-items-center">
                 <form class="d-flex w-100">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" name="q">
+                    <label for="nav-search" class="visually-hidden">Search</label>
+                    <input id="nav-search" class="form-control" type="search" placeholder="Search" aria-label="Search" name="q">
                     <button class="btn" type="submit">
                         <i class="fa-solid fa-magnifying-glass nav-search-icon"></i>
                     </button>
