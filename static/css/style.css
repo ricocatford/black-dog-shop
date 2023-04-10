@@ -115,6 +115,18 @@ body {
 }
 
 
+/* ----- Links ----- */
+
+a {
+    text-decoration: none;
+    color: #171717;
+}
+
+a:hover,
+a:focus {
+    color: #606060;
+}
+
 /* ----- Home page ----- */
 
 .custom-card {
@@ -139,6 +151,15 @@ body {
     color: #fff;
     background: #171717;
     margin: 0;
+}
+
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover,
+.card:focus {
+    transform: scale(1.05);
 }
 
 

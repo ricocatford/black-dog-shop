@@ -29,27 +29,27 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=t_shirts">
                                 T-Shirts
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=shirts">
                                 Shirts
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=trousers">
                                 Trousers
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=jackets">
                                 Jackets
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=caps_hats">
                                 Caps & Hats
                             </a>
                         </li>
@@ -62,32 +62,32 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=completes">
                                 Completes
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=decks">
                                 Decks
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=trucks">
                                 Trucks
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=wheels">
                                 Wheels
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=bolts">
                                 Bolts
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{% url 'products' %}?category=griptape">
                                 Griptape
                             </a>
                         </li>
@@ -123,7 +123,7 @@
                 {% endif %}
             </ul>
             <div class="d-flex justify-content-between align-items-center">
-                <form class="d-flex w-100">
+                <form method="GET" action="{% url 'products' %}" class="d-flex w-100">
                     <label for="nav-search" class="visually-hidden">Search</label>
                     <input id="nav-search" class="form-control" type="search" placeholder="Search" aria-label="Search" name="q">
                     <button class="btn" type="submit">
