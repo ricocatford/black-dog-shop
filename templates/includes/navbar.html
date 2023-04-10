@@ -2,7 +2,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <div class="nav-logo-wrapper">
-            <img src="{% static 'svg/logo.svg' %}" class="nav-logo"/>
+            <a href="{% url 'home' %}">
+                <img src="{% static 'svg/logo.svg' %}" class="nav-logo"/>
+            </a>
         </div>
         <a class="navbar-brand mx-1" href="{% url 'home' %}">
             Black Dog Shop
@@ -16,8 +18,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
                 <li class="nav-item">
-                    <a class="custom-nav-link highlight-nav-link" href="#">
-                        Sales
+                    <a class="custom-nav-link" href="{% url 'products' %}">
+                        All Products
                     </a>
                 </li>
                 <li class="nav-item dropdown">
