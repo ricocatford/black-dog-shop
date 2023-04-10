@@ -1,5 +1,5 @@
 {% load static %}
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light mt-5">
     <div class="container">
         <footer class="py-3">
             <div class="row">
@@ -9,18 +9,13 @@
                     </h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
+                            <a href="{% url 'home' %}" class="nav-link p-0 text-dark">
                                 Home
                             </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                Sales
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                Products
+                            <a href="{% url 'products' %}" class="nav-link p-0 text-dark">
+                                All Products
                             </a>
                         </li>
                         <li class="nav-item mb-2">

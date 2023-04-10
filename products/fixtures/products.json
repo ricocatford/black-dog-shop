@@ -5,7 +5,7 @@
     "fields": {
       "sku": "bds013370001",
       "name": "Volcom Caden Plaid Long Sleeve Shirt Mocha",
-      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label\n\nLeft Chest Pocket with Stripe label\n\nVolcom Stone Logo Embroidery under yoke\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label. Left Chest Pocket with Stripe label. Volcom Stone Logo Embroidery under yoke. Premium materials and quality manufacturing from Volcom.",
       "price": 61.99,
       "category": 2,
       "image": "27318f5fd971d41e882e4b7a4b7af481.jpg"
@@ -17,7 +17,7 @@
     "fields": {
       "sku": "bds013370002",
       "name": "Volcom Caden Plaid Long Sleeve Shirt Khaki",
-      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label\n\nLeft Chest Pocket with Stripe label\n\nVolcom Stone Logo Embroidery under yoke\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label. Left Chest Pocket with Stripe label. Volcom Stone Logo Embroidery under yoke. Premium materials and quality manufacturing from Volcom.",
       "price": 63.99,
       "category": 2,
       "image": "ac7ccc17220b3dbf78d0cfcb30fe04d1.jpg"
@@ -29,7 +29,7 @@
     "fields": {
       "sku": "bds013370003",
       "name": "Volcom Caden Plaid Long Sleeve Shirt Military",
-      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label\n\nLeft Chest Pocket with Stripe label\n\nVolcom Stone Logo Embroidery under yoke\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "100% Cotton Modern Fit with Volcom Logo Buttons and woven label. Left Chest Pocket with Stripe label. Volcom Stone Logo Embroidery under yoke. Premium materials and quality manufacturing from Volcom.",
       "price": 61.99,
       "category": 2,
       "image": "7fbfbcc6968eead17d216c5252c5353b.jpg"
@@ -40,8 +40,8 @@
     "model": "products.product",
     "fields": {
       "sku": "bds013370004",
-      "name": "tussy Beach Plaid Shirt Lime",
-      "description": "Manufactured from 100% cotton yarn dye plaid.\n\nRegular straight fit plaid shirt with curved lower hem.\n\nFull front button closure, Stussy woven tab logo to side hem and inner neck label.\n\nPremium Stussy quality construction throughout.",
+      "name": "Stussy Beach Plaid Shirt Lime",
+      "description": "Manufactured from 100% cotton yarn dye plaid. Regular straight fit plaid shirt with curved lower hem. Full front button closure, Stussy woven tab logo to side hem and inner neck label. Premium Stussy quality construction throughout.",
       "price": 45.99,
       "category": 2,
       "image": "3710790fb77c80a42538d61d0a541458.jpg"
@@ -53,7 +53,7 @@
     "fields": {
       "sku": "bds013370005",
       "name": "Independent Truck Co Chain Cross Rugby Shirt Black Stripe",
-      "description": "Manufactured from 100% combed cotton, 170gsm jersey.\n\nRegular fit rugby shirt with button placket.\n\nRibbed cuffs, engineered stripe and left chest Indy Truck Co embroidery.\n\nIndy Trucks, #1 Choice of Professional Skateboarders Since 1978.",
+      "description": "Manufactured from 100% combed cotton, 170gsm jersey. Regular fit rugby shirt with button placket. Ribbed cuffs, engineered stripe and left chest Indy Truck Co embroidery. Indy Trucks, #1 Choice of Professional Skateboarders Since 1978.",
       "price": 51.99,
       "category": 2,
       "image": "d7958dc273d0e86c527d4c4c0a63e3a8.jpg"
@@ -65,7 +65,7 @@
     "fields": {
       "sku": "bds013370006",
       "name": "RVCA Freeman Cord Long Sleeve Shirt Black",
-      "description": "Constructed from 100% cotton corduroy. Heavy vintage wash.\n\nRegular fit long sleeved shirt with patch pockets at chest.\n\nCustom RVCA solo label at pocket hem.\n\nRVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultues highly regarded brand RVCA.",
+      "description": "Constructed from 100% cotton corduroy. Heavy vintage wash. Regular fit long sleeved shirt with patch pockets at chest. Custom RVCA solo label at pocket hem. RVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultues highly regarded brand RVCA.",
       "price": 68.99,
       "category": 2,
       "image": "f550cc95ba23609a799a8da375709932.jpg"
@@ -77,7 +77,7 @@
     "fields": {
       "sku": "bds013370007",
       "name": "Confusion Mag Puker T-Shirt Green",
-      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton\n\nBlack ink screen printed large on back and smaller logo on left front chest of lime green\n\nArtwork by @psycholdschool\n\nPremium quality from Confusion international Skateboard magazine.",
+      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton. Black ink screen printed large on back and smaller logo on left front chest of lime green. Artwork by @psycholdschool. Premium quality from Confusion international Skateboard magazine.",
       "price": 28.99,
       "category": 1,
       "image": "c4718f1b21cd1b1ffdd7d0f760689433.jpg"
@@ -89,7 +89,7 @@
     "fields": {
       "sku": "bds013370008",
       "name": "Confusion Mag Push T-Shirt Sand",
-      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton\n\nBlue and Red ink screen printed on front of sand/tan heavy weight 100% cotton t-shirt\n\nArtwork by @lele\n\nPremium quality from Confusion international Skateboard magazine.",
+      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton. Blue and Red ink screen printed on front of sand/tan heavy weight 100% cotton t-shirt. Artwork by @lele. Premium quality from Confusion international Skateboard magazine.",
       "price": 24.99,
       "category": 1,
       "image": "30be9be6fe0c94c7fa07222025a9f0b7.jpg"
@@ -101,7 +101,7 @@
     "fields": {
       "sku": "bds013370009",
       "name": "Confusion Mag BBQ DIY T-Shirt Ash Grey",
-      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton\n\nBlack ink screen printed large on back and smaller logo on left front chest of ash grey\n\nArtwork by @la_ptite_margelle_tattoo\n\nPremium quality from Confusion international Skateboard magazine.",
+      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton. Black ink screen printed large on back and smaller logo on left front chest of ash grey. Artwork by @la_ptite_margelle_tattoo. Premium quality from Confusion international Skateboard magazine.",
       "price": 27.99,
       "category": 1,
       "image": "d7e73e957f941190d72fa72eae86a09e.jpg"
@@ -113,7 +113,7 @@
     "fields": {
       "sku": "bds013370010",
       "name": "Confusion Mag Cranium T-Shirt Black",
-      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton\n\nDischarge screen printed large back print and front center chest logo print on black\n\nArtwork by James Callahan @barfcomics\n\nPremium quality from Confusion international Skateboard magazine.",
+      "description": "Regular straight fit T-Shirt constructed in 100% soft spun cotton. Discharge screen printed large back print and front center chest logo print on black. Artwork by James Callahan @barfcomics. Premium quality from Confusion international Skateboard magazine.",
       "price": 26.99,
       "category": 1,
       "image": "c1f82e8c20385bc0dcc7fff7e117c6bd.jpg"
@@ -125,7 +125,7 @@
     "fields": {
       "sku": "bds013370011",
       "name": "Thrasher X Alien Workshop Spectrum Black T-Shirt",
-      "description": "Regular straight fit Tee constructed in 100% soft spun cotton.\n\nPremium screen printed artwork with detailed embroidered Thrasher inner neck label.\n\nThrasher high quality manufacturing throughout.\n\nBlack Sheep is an Official stockist for all Thrasher Magazine products.",
+      "description": "Regular straight fit Tee constructed in 100% soft spun cotton. Premium screen printed artwork with detailed embroidered Thrasher inner neck label. Thrasher high quality manufacturing throughout. Black Sheep is an Official stockist for all Thrasher Magazine products.",
       "price": 34.99,
       "category": 1,
       "image": "b04776ba80c62f1346e01719ebe8edaa.jpg"
@@ -137,7 +137,7 @@
     "fields": {
       "sku": "bds013370012",
       "name": "Thrasher X Alien Workshop Spectrum White T-Shirt",
-      "description": "Regular straight fit Tee constructed in 100% soft spun cotton.\n\nPremium screen printed artwork with detailed embroidered Thrasher inner neck label.\n\nThrasher high quality manufacturing throughout.\n\nBlack Sheep is an Official stockist for all Thrasher Magazine products.",
+      "description": "Regular straight fit Tee constructed in 100% soft spun cotton. Premium screen printed artwork with detailed embroidered Thrasher inner neck label. Thrasher high quality manufacturing throughout. Black Sheep is an Official stockist for all Thrasher Magazine products.",
       "price": 34.99,
       "category": 1,
       "image": "89c57943a63241800a2aacff9306fe6f.jpg"
@@ -149,7 +149,7 @@
     "fields": {
       "sku": "bds013370013",
       "name": "Thrasher Sketch T-Shirt Black",
-      "description": "Regular straight fit Tee constructed in 100% soft spun cotton.\n\nPremium screen printed artwork with detailed embroidered Thrasher inner neck label.\n\nThrasher high quality manufacturing throughout.\n\nBlack Sheep is an Official stockist for all Thrasher Magazine products.",
+      "description": "Regular straight fit Tee constructed in 100% soft spun cotton. Premium screen printed artwork with detailed embroidered Thrasher inner neck label. Thrasher high quality manufacturing throughout. Black Sheep is an Official stockist for all Thrasher Magazine products.",
       "price": 37.99,
       "category": 1,
       "image": "c0835746eb8453445cc22b98cdc17795.jpg"
@@ -161,7 +161,7 @@
     "fields": {
       "sku": "bds013370014",
       "name": "Thrasher Aztec T-Shirt Black",
-      "description": "Regular straight fit Tee constructed in 100% soft spun cotton.\n\nPremium screen printed artwork with detailed embroidered Thrasher inner neck label.\n\nThrasher high quality manufacturing throughout.\n\nBlack Sheep is an Official stockist for all Thrasher Magazine products.",
+      "description": "Regular straight fit Tee constructed in 100% soft spun cotton. Premium screen printed artwork with detailed embroidered Thrasher inner neck label. Thrasher high quality manufacturing throughout. Black Sheep is an Official stockist for all Thrasher Magazine products.",
       "price": 37.99,
       "category": 1,
       "image": "c3ee7cf52bc8d8d34c5a9a3ace84ba0c.jpg"
@@ -173,7 +173,7 @@
     "fields": {
       "sku": "bds013370015",
       "name": "Huf Fishtankin' Short Sleeve T-Shirt Black",
-      "description": "100% Cotton 200 Gsm heavyweight classic cut Short Sleeve T-Shirt\n\nBig shout out to aquatic pandemic pets\n\nPrinted artwork on left chest and back with woven huf labels to finish\n\nGuaranteed Huf quality construction throughout.",
+      "description": "100% Cotton 200 Gsm heavyweight classic cut Short Sleeve T-Shirt. Big shout out to aquatic pandemic pets. Printed artwork on left chest and back with woven huf labels to finish. Guaranteed Huf quality construction throughout.",
       "price": 25.99,
       "category": 1,
       "image": "5e57905e1861175a26207cf90eb1f595.jpg"
@@ -185,7 +185,7 @@
     "fields": {
       "sku": "bds013370016",
       "name": "Volcom Frickin Modern Strech Short Mushroom Brown",
-      "description": "These shorts feature double back pockets aswell as a zip flyer and woven Volcom tab branding throught the short ensuring a premium but simple short.\n\nThe outseam leg length is 21\", additionally they are comprised of recycled fabric. ensuring environmental sustainability.\n\nConstruction is comprised of 59% Cotton, 39% Polyester and 2% Elastane\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "These shorts feature double back pockets aswell as a zip flyer and woven Volcom tab branding throught the short ensuring a premium but simple short. The outseam leg length is 21\", additionally they are comprised of recycled fabric. ensuring environmental sustainability. Construction is comprised of 59% Cotton, 39% Polyester and 2% Elastane. Premium materials and quality manufacturing from Volcom.",
       "price": 55.99,
       "category": 3,
       "image": "5f90a76cb43dc4e7332c4db47740505b.jpg"
@@ -197,7 +197,7 @@
     "fields": {
       "sku": "bds013370017",
       "name": "Volcom Frickin Modern Stretch Short Black",
-      "description": "These shorts feature double back pockets aswell as a zip flyer and woven Volcom tab branding throught the short ensuring a premium but simple short.\n\nThe outseam leg length is 21\", additionally they are comprised of recycled fabric. ensuring environmental sustainability.\n\nConstruction is comprised of 59% Cotton, 39% Polyester and 2% Elastane\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "These shorts feature double back pockets aswell as a zip flyer and woven Volcom tab branding throught the short ensuring a premium but simple short. The outseam leg length is 21\", additionally they are comprised of recycled fabric. ensuring environmental sustainability. Construction is comprised of 59% Cotton, 39% Polyester and 2% Elastane. Premium materials and quality manufacturing from Volcom.",
       "price": 55.99,
       "category": 3,
       "image": "fee070383a3bfa884cc793603021520a.jpg"
@@ -209,7 +209,7 @@
     "fields": {
       "sku": "bds013370018",
       "name": "Volcom Frickin Modern Stretch Pants Black",
-      "description": "Constructed from 59% Cotton / 39% Repreve Polyester / 2% Elastane twill.\n\nModern fit chino pants with 16\" leg opening.\n\nSignature asymmetric back yoke. Pre-laundered washed comfort.\n\nPremium materials and quality manufacturing from Volcom.",
+      "description": "Constructed from 59% Cotton / 39% Repreve Polyester / 2% Elastane twill. Modern fit chino pants with 16\" leg opening. Signature asymmetric back yoke. Pre-laundered washed comfort. Premium materials and quality manufacturing from Volcom.",
       "price": 64.99,
       "category": 3,
       "image": "315ff23ff18fafa4e6c831267ba59436.jpg"
@@ -221,7 +221,7 @@
     "fields": {
       "sku": "bds013370019",
       "name": "RVCA The Weekend Stretch Pants Dark Khaki",
-      "description": "Constructed from 68% cotton, 30% polyester, 2% elastane.\n\n5in front coin pocket, front slash pockets with back welt pockets.\n\nDetailed RVCA solo label at back right pocket.\n\nRVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultures highly regarded brand RVCA.",
+      "description": "Constructed from 68% cotton, 30% polyester, 2% elastane. 5in front coin pocket, front slash pockets with back welt pockets. Detailed RVCA solo label at back right pocket. RVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultures highly regarded brand RVCA.",
       "price": 71.99,
       "category": 3,
       "image": "279c137385f07ec6000474ee990eef4a.jpg"
@@ -233,7 +233,7 @@
     "fields": {
       "sku": "bds013370020",
       "name": "RVCA New Dawn Denim Pants Vintage Black",
-      "description": "Constructed from 100% cotton. Modern straight fit with shortened inseam.\n\nButton Fly and waistband with RVCA shank. 5 pocket styling with RVCA flag label at front coin pocket.\n\nVA embroidery at wearers right outseam. Flat felled finished outseams.\n\nRVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultures highly regarded brand RVCA.",
+      "description": "Constructed from 100% cotton. Modern straight fit with shortened inseam. Button Fly and waistband with RVCA shank. 5 pocket styling with RVCA flag label at front coin pocket. VA embroidery at wearers right outseam. Flat felled finished outseams. RVCA meaning The Balance Of Opposites, V=A. Premium quality manufacturing from the subcultures highly regarded brand RVCA.",
       "price": 76.99,
       "category": 3,
       "image": "5f9fd73e775b51af8d74976d3a6e87cf.jpg"
@@ -245,7 +245,7 @@
     "fields": {
       "sku": "bds013370021",
       "name": "Santa Cruz Boardshorts Screaming Hand Boardie Black",
-      "description": "Constructed from 100% polyester suede with a 20\" outseam.\n\nSanta Cruz embroidered open back pocket.\n\nDrawstring adjustable waist, all over Santa Cruz sublimated print.\n\nRenound high quality manufacturing from the Santa Cruz skateboards brand.",
+      "description": "Constructed from 100% polyester suede with a 20\" outseam. Santa Cruz embroidered open back pocket. Drawstring adjustable waist, all over Santa Cruz sublimated print. Renound high quality manufacturing from the Santa Cruz skateboards brand.",
       "price": 29.99,
       "category": 3,
       "image": "517ad5deeeb29e5f6e495cffcb6e62d2.jpg"
@@ -257,7 +257,7 @@
     "fields": {
       "sku": "bds013370022",
       "name": "Santa Cruz Shorts Glow Swimshort Black",
-      "description": "Constructed from 100% polyester with a 17\" outseam.\n\nOpen back pocket with woven embroidered tab logo.\n\nDrawstring adjustable waist, all over Santa Cruz logo branding.\n\nRenound high quality manufacturing from the Santa Cruz skateboards brand.",
+      "description": "Constructed from 100% polyester with a 17\" outseam. Open back pocket with woven embroidered tab logo. Drawstring adjustable waist, all over Santa Cruz logo branding. Renound high quality manufacturing from the Santa Cruz skateboards brand.",
       "price": 29.99,
       "category": 3,
       "image": "0b89929e05e295c92bad036250c75339.jpg"
@@ -269,7 +269,7 @@
     "fields": {
       "sku": "bds013370023",
       "name": "Adidas Skateboarding X Metropolitan Fleece Track Pants Black",
-      "description": "Strictly limited release from Adidas Skateboarding. Originally founded back in '94 by Keith Hufnagel Metropolitan was the East Coast answer to Spitfire. Now re-released in 2017 the brand harks back to it's original routes of rawness and East Coast timeless vibes.\n\n360 GM shearing fleece main body with mesh interlining. Heat transfer three stripe reflective panels down legs.\n\nElasticated waist band with snap closure and zip fly. Collab adidas x Metropolitan branded details plus contrast stitch finish.\n\nPremium quality manufacturing throughout from Adidas Skateboarding.",
+      "description": "Strictly limited release from Adidas Skateboarding. Originally founded back in '94 by Keith Hufnagel Metropolitan was the East Coast answer to Spitfire. Now re-released in 2017 the brand harks back to it's original routes of rawness and East Coast timeless vibes. 360 GM shearing fleece main body with mesh interlining. Heat transfer three stripe reflective panels down legs. Elasticated waist band with snap closure and zip fly. Collab adidas x Metropolitan branded details plus contrast stitch finish. Premium quality manufacturing throughout from Adidas Skateboarding.",
       "price": 75.99,
       "category": 3,
       "image": "0b89929e05e295c92bad036250c75331.jpg"
@@ -281,7 +281,7 @@
     "fields": {
       "sku": "bds013370024",
       "name": "Adidas Skateboarding Superfire Track Jacket Carbon Black",
-      "description": "Following on from the sucess of a skateboarding staple this jacket features updated materials with the same function and sustainability as key.\n\nA timeless classic made with a premium cotton blend Twill.\n\nPremium quality manufacturing throughout from Adidas Skateboarding.",
+      "description": "Following on from the sucess of a skateboarding staple this jacket features updated materials with the same function and sustainability as key. A timeless classic made with a premium cotton blend Twill. Premium quality manufacturing throughout from Adidas Skateboarding.",
       "price": 74.99,
       "category": 4,
       "image": "df85c0bd67f7d0bb090b344f0a70fa69.jpg"
@@ -293,7 +293,7 @@
     "fields": {
       "sku": "bds013370025",
       "name": "Huf Set Shell Jacket Olive",
-      "description": "100% Nylon Shell with DWR Water proof coating\n\nColour Block details with centre front reverse coil zipper\n\nDual vertical chest pockets and welt hand pockets with elasticated cuffs and drop hem on back.\n\nGuaranteed Huf quality construction throughout.",
+      "description": "100% Nylon Shell with DWR Water proof coating. Colour Block details with centre front reverse coil zipper. Dual vertical chest pockets and welt hand pockets with elasticated cuffs and drop hem on back. Guaranteed Huf quality construction throughout.",
       "price": 125.99,
       "category": 4,
       "image": "6843a77c5d1773c99d417777c492201d.jpg"
@@ -305,7 +305,7 @@
     "fields": {
       "sku": "bds013370026",
       "name": "Stussy Reed Wool Plaid Zip Shirt/Jacket Green",
-      "description": "YKK metal zip closure with Left chest patch pocket\n\n2\" side vents and Single cat eye button cuffs\n\nTwill-lined collar, cuffs, hem & Stüssy big stock flag label at side seam\n\n75% Virgin Wool / 25% Polyamide / 5% Polyester\n\nPremium Stussy quality construction throughout.",
+      "description": "YKK metal zip closure with Left chest patch pocket. 2\" side vents and Single cat eye button cuffs. Twill-lined collar, cuffs, hem & Stüssy big stock flag label at side seam. 75% Virgin Wool / 25% Polyamide / 5% Polyester. Premium Stussy quality construction throughout.",
       "price": 115.99,
       "category": 4,
       "image": "182381e5191324e47f9d746dad9e99b9.jpg"
@@ -317,7 +317,7 @@
     "fields": {
       "sku": "bds013370027",
       "name": "Rip N Dip Neon Cat Puffer Coat Black",
-      "description": "Heavyweight Zip Up Puffer Jacket with all over print\n\nTwo front zipper pockets\n\nClear rubber patch on front and back with velcro adjustable cuffs.\n\nPremium manufacturing from Rip N Dip USA.",
+      "description": "Heavyweight Zip Up Puffer Jacket with all over print. Two front zipper pockets. Clear rubber patch on front and back with velcro adjustable cuffs. Premium manufacturing from Rip N Dip USA.",
       "price": 155.99,
       "category": 4,
       "image": "921d317159065598ec0db1fd12814096.jpg"
@@ -329,7 +329,7 @@
     "fields": {
       "sku": "bds013370028",
       "name": "Huf Workman Quilted Full Zip Hooded Jacket Forest Green",
-      "description": "Zip front Work wear inspired design 80/20 cotton-poly quilted fleece w/ polyfill insulation\n\n65/35 poly-cotton thermal waffle lining at hood and body with 100% Cotton lined sleeves.\n\nSplit kangaroo pocket with Embroidered artwork at left chest and back.\n\nGuaranteed Huf quality construction throughout.",
+      "description": "Zip front Work wear inspired design 80/20 cotton-poly quilted fleece w/ polyfill insulation. 65/35 poly-cotton thermal waffle lining at hood and body with 100% Cotton lined sleeves. Split kangaroo pocket with Embroidered artwork at left chest and back. Guaranteed Huf quality construction throughout.",
       "price": 125.99,
       "category": 4,
       "image": "5540158cd78e0cdb41a556198cef7823.jpg"
@@ -341,7 +341,7 @@
     "fields": {
       "sku": "bds013370029",
       "name": "Dickies Storden Jacket Black",
-      "description": "Temp-IQ Flex twill, 65% polyester 35% cotton, 7.3oz.\n\nClassic workwear jacket made with Flex material for fit and comfort.\n\nFeatures elbow reinforcement, detailed action pleats to rear and internal phone pocket. Corduroy collar and external flap pockets.\n\nStrong Dickies quality manufacturing throughout.",
+      "description": "Temp-IQ Flex twill, 65% polyester 35% cotton, 7.3oz. Classic workwear jacket made with Flex material for fit and comfort. Features elbow reinforcement, detailed action pleats to rear and internal phone pocket. Corduroy collar and external flap pockets. Strong Dickies quality manufacturing throughout.",
       "price": 155.99,
       "category": 4,
       "image": "7dbf6f440a16795eb9c7da936a178470.jpg"
@@ -353,7 +353,7 @@
     "fields": {
       "sku": "bds013370030",
       "name": "Element Alder Fundamental Puff Jacket Flint Black",
-      "description": "Constructed in a W/600mm clear coated DWR 100% polyester. Poly taffeta 180grm body insulation, 120grm sleeve insulation.\n\nCoil front zipper with internal storm guard, tonal chest logo print.\n\nAdjustable pull hike cord hood, open lower mesh lined pockets. Elasticated comfort cuffs and hem.\n\nElement Brand premium quality manufacturing throughout.",
+      "description": "Constructed in a W/600mm clear coated DWR 100% polyester. Poly taffeta 180grm body insulation, 120grm sleeve insulation. Coil front zipper with internal storm guard, tonal chest logo print. Adjustable pull hike cord hood, open lower mesh lined pockets. Elasticated comfort cuffs and hem. Element Brand premium quality manufacturing throughout.",
       "price": 159.99,
       "category": 4,
       "image": "7d8f881643604f018ea8a5b44a198b08.jpg"
@@ -365,7 +365,7 @@
     "fields": {
       "sku": "bds013370031",
       "name": "Element Dulcey Two Tones Jacket Camo",
-      "description": "Constructed in a 1000mm PU DWR clear coated canvas 65% polyester repreve 35% cotton blend.\n\nPolyamide crinkle ripstop lining with padded horizontal quilting.\n\nFeatures side open hand warmer welt pockets and internal security pocket. Sturdy front metal zipper, ribbed hem and cuffs along with new external 'Made To Endure' branding and hood reflective cord.\n\nElement Brand premium quality manufacturing throughout.",
+      "description": "Constructed in a 1000mm PU DWR clear coated canvas 65% polyester repreve 35% cotton blend. Polyamide crinkle ripstop lining with padded horizontal quilting. Features side open hand warmer welt pockets and internal security pocket. Sturdy front metal zipper, ribbed hem and cuffs along with new external 'Made To Endure' branding and hood reflective cord. Element Brand premium quality manufacturing throughout.",
       "price": 155.99,
       "category": 4,
       "image": "2df09e7eda7349273bf105bf07224490.jpg"
@@ -377,7 +377,7 @@
     "fields": {
       "sku": "bds013370032",
       "name": "DC Shoe Co Stafford Jacket Black",
-      "description": "Insulated jacket manufactured from 100% nylon plain weave, 60g. Lining 100% polyester taffeta with 774g fake down fill.\n\nStandard fit with 3 piece attached hood with adjustable drawcords. Bungee and toggle adjustable hem.\n\nTwo front patch pockets with top and side entry, snap down flap closure. Vision full zip with placket cover.\n\nDC brand premium construction throughout.",
+      "description": "Insulated jacket manufactured from 100% nylon plain weave, 60g. Lining 100% polyester taffeta with 774g fake down fill. Standard fit with 3 piece attached hood with adjustable drawcords. Bungee and toggle adjustable hem. Two front patch pockets with top and side entry, snap down flap closure. Vision full zip with placket cover. DC brand premium construction throughout.",
       "price": 135.99,
       "category": 4,
       "image": "467143d91c27fcb9d7d0137be0ff70c5.jpg"
@@ -389,7 +389,7 @@
     "fields": {
       "sku": "bds013370033",
       "name": "Confusion Mag Goat Skull Mask Trucker Cap Black One Size",
-      "description": "5 panel flexfit mesh trucker cap with silkscreened print\n\ndesign by Bec Negre\n\nPremium quality from Confusion international Skateboard magazine.",
+      "description": "5 panel flexfit mesh trucker cap with silkscreened print. design by Bec Negre. Premium quality from Confusion international Skateboard magazine.",
       "price": 15.99,
       "category": 5,
       "image": "efdfeafb035d5248d0d0c5586ad6a90a.jpg"
@@ -401,7 +401,7 @@
     "fields": {
       "sku": "bds013370034",
       "name": "Baglady Skywalker Beanie Black",
-      "description": "High quality cotton beanie with a custom baglady designed shape and fit.\n\nNon fold black beanie following a more modern streetwear style of hat.\n\nElasticated one size fits all. Additionally it has a jacquard knitted pattern featuring Baglady Skywalker Logo.\n\nBaglady Supplies stems from South East London and come from the mind of Tom Delion with a heavy photography, analogue processes influence.",
+      "description": "High quality cotton beanie with a custom baglady designed shape and fit. Non fold black beanie following a more modern streetwear style of hat. Elasticated one size fits all. Additionally it has a jacquard knitted pattern featuring Baglady Skywalker Logo. Baglady Supplies stems from South East London and come from the mind of Tom Delion with a heavy photography, analogue processes influence.",
       "price": 25.99,
       "category": 5,
       "image": "51097b234008a19238472dcf304a1604.jpg"
@@ -413,7 +413,7 @@
     "fields": {
       "sku": "bds013370035",
       "name": "Baglady Eros Striped Beanie Multi Colour",
-      "description": "High quality cotton beanie with a custom baglady designed shape and fit.\n\nElasticated rim, this means it fits all head shapes additionally it has a sewn Jacquard pattern and high quality details.\n\nEmbroidered Baglady Logo on the front fold for a unique and premium feelling finish.\n\nBaglady Supplies stems from South East London and come from the mind of Tom Delion with a heavy photography, analogue processes influence.",
+      "description": "High quality cotton beanie with a custom baglady designed shape and fit. Elasticated rim, this means it fits all head shapes additionally it has a sewn Jacquard pattern and high quality details. Embroidered Baglady Logo on the front fold for a unique and premium feelling finish. Baglady Supplies stems from South East London and come from the mind of Tom Delion with a heavy photography, analogue processes influence.",
       "price": 25.99,
       "category": 5,
       "image": "0304d5f2b5fa0aa1e3d1fd8f19e1a391.jpg"
@@ -425,7 +425,7 @@
     "fields": {
       "sku": "bds013370036",
       "name": "Huf's Auto Supply Trucker Cap Black",
-      "description": "Cotton Poly mesh trucker hat with vintage Auto inspired artwork\n\nPrinted artwork on front panel with piping detail on peak and sides\n\nOne size adjustable snap closure with Huf woven label.\n\nGuaranteed Huf quality construction throughout.",
+      "description": "Cotton Poly mesh trucker hat with vintage Auto inspired artwork. Printed artwork on front panel with piping detail on peak and sides. One size adjustable snap closure with Huf woven label. Guaranteed Huf quality construction throughout.",
       "price": 27.99,
       "category": 5,
       "image": "7022b20b6404b19cde9199aef7b5c91d.jpg"
@@ -437,7 +437,7 @@
     "fields": {
       "sku": "bds013370037",
       "name": "Huf's Auto Supply Trucker Cap Brown",
-      "description": "Cotton Poly mesh trucker hat with vintage Auto inspired artwork\n\nPrinted artwork on front panel with piping detail on peak and sides\n\nOne size adjustable snap closure with Huf woven label.\n\nGuaranteed Huf quality construction throughout.",
+      "description": "Cotton Poly mesh trucker hat with vintage Auto inspired artwork. Printed artwork on front panel with piping detail on peak and sides. One size adjustable snap closure with Huf woven label. Guaranteed Huf quality construction throughout.",
       "price": 27.99,
       "category": 5,
       "image": "624c3c55265c7d72c0835ddff797a52b.jpg"
@@ -449,7 +449,7 @@
     "fields": {
       "sku": "bds013370038",
       "name": "Polar Earthquake Patch Cap Brown",
-      "description": "Constructed with 100% cotton and twill fabric aswell as a mesh panel lining\n\nPre bent brim and structured 5 panel cap for a classic look.\n\nEmbroidered patch featuring a poler skate co graphic.\n\nHigh grade quality production from Sweden's Polar Skate Co.",
+      "description": "Constructed with 100% cotton and twill fabric aswell as a mesh panel lining. Pre bent brim and structured 5 panel cap for a classic look. Embroidered patch featuring a poler skate co graphic. High grade quality production from Sweden's Polar Skate Co.",
       "price": 22.99,
       "category": 5,
       "image": "2ab1b90ce287ab77e1b2461315fb7295.jpg"
@@ -461,7 +461,7 @@
     "fields": {
       "sku": "bds013370039",
       "name": "Thrasher Cap Snapback Skate Mag Logo Blue Black One Size Adult",
-      "description": "Constructed from 100% cotton hat with an adjustable strap allowing you to find the perfect fit\n\nFeatures an Embroidered iconic Thrasher logo on the front\n\nThrasher high quality manufacturing throughout.\n\nOfficial stockist for all Thrasher Magazine products.",
+      "description": "Constructed from 100% cotton hat with an adjustable strap allowing you to find the perfect fit. Features an Embroidered iconic Thrasher logo on the front. Thrasher high quality manufacturing throughout. Official stockist for all Thrasher Magazine products.",
       "price": 31.99,
       "category": 5,
       "image": "720030cdb536a12e80b4a70f4dfd9c72.jpg"
@@ -473,7 +473,7 @@
     "fields": {
       "sku": "bds013370040",
       "name": "Santa Cruzer Factory Complete Skateboard Holo Wave Dot Cruzer Shark",
-      "description": "8.8\" wide and 27.7\" Long with a 16.5\" Wheelbase and Sanat Cruz X Concave\n\nFull prismatic foil graphic on 7 ply surfboard inspired shape cruiser\n\n140mm Bullet trucks with angled risers and 65mm 78a wheels.\n\nPressed and manufactured by the highly regarded long standing California NHS Distribution.",
+      "description": "8.8\" wide and 27.7\" Long with a 16.5\" Wheelbase and Sanat Cruz X Concave. Full prismatic foil graphic on 7 ply surfboard inspired shape cruiser. 140mm Bullet trucks with angled risers and 65mm 78a wheels. Pressed and manufactured by the highly regarded long standing California NHS Distribution.",
       "price": 211.99,
       "category": 6,
       "image": "2dfc89abc937c5385456e64afcc00d11.jpg"
@@ -485,7 +485,7 @@
     "fields": {
       "sku": "bds013370041",
       "name": "Zero Complete Skateboard Leopard Jamie Thomas",
-      "description": "8.25\" inches wide x 31.9\" length with a 14.25\" wheelbase. Medium concave deck.\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nSingle cold pressed design that outlasts other cheaper industry standard multi-hot pressed decks.\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.\n\n",
+      "description": "8.25\" inches wide x 31.9\" length with a 14.25\" wheelbase. Medium concave deck. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Single cold pressed design that outlasts other cheaper industry standard multi-hot pressed decks. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood. ",
       "price": 111.99,
       "category": 6,
       "image": "4b179808ef047236dacde73c0c9cb602.jpg"
@@ -497,7 +497,7 @@
     "fields": {
       "sku": "bds013370042",
       "name": "Zero Complete Skateboard Apocalypse Chris Cole Black",
-      "description": "8.5\" inches wide x 32.3\" length with a 14.35\" wheelbase. Medium concave deck. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape.\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nSingle cold pressed design that outlasts other cheaper industry standard multi-hot pressed decks.\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
+      "description": "8.5\" inches wide x 32.3\" length with a 14.35\" wheelbase. Medium concave deck. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Single cold pressed design that outlasts other cheaper industry standard multi-hot pressed decks. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
       "price": 111.99,
       "category": 6,
       "image": "a07a70d3ef063ce3e0463ca203b20f76.jpg"
@@ -509,7 +509,7 @@
     "fields": {
       "sku": "bds013370043",
       "name": "Palace Skateboards Rory Spring 23 Complete Skateboard",
-      "description": "8.06\" inches wide, medium concave deck.\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.\n\nSingle pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards. London based brand doing all the right things.",
+      "description": "8.06\" inches wide, medium concave deck. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood. Single pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards. London based brand doing all the right things.",
       "price": 91.99,
       "category": 6,
       "image": "55e3a602b62e3a60def070eaca597c39.jpg"
@@ -521,7 +521,7 @@
     "fields": {
       "sku": "bds013370044",
       "name": "Palace Skateboards Kyle Spring 23 Complete Skateboard",
-      "description": "8.375\" Wide, medium concave deck.\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black shield bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.\n\nSingle pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards. London based brand doing all the right things.",
+      "description": "8.375\" Wide, medium concave deck. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black shield bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood. Single pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards. London based brand doing all the right things.",
       "price": 91.99,
       "category": 6,
       "image": "398f7937cd0bd1b2c2a6e9c6a0d5b11c.jpg"
@@ -533,7 +533,7 @@
     "fields": {
       "sku": "bds013370045",
       "name": "Real Complete Skateboard Nicole Hause By Kathy Ager Black",
-      "description": "8.25\" Wide and 31.5\" Long with 14.88\" Wheelbase and medium concave\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the highly regarded long standing California DELUXE Distribution.",
+      "description": "8.25\" Wide and 31.5\" Long with 14.88\" Wheelbase and medium concave. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the highly regarded long standing California DELUXE Distribution.",
       "price": 134.99,
       "category": 6,
       "image": "13d83d5413f2393c16a81bd3a58fd5f5.jpg"
@@ -545,7 +545,7 @@
     "fields": {
       "sku": "bds013370046",
       "name": "Real Complete Skateboard Mason Enigma Black/Blue",
-      "description": "8.5\" Wide and 32.25\" Long with 14.38\" Wheelbase and medium concave\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the highly regarded long standing California DELUXE Distribution.",
+      "description": "8.5\" Wide and 32.25\" Long with 14.38\" Wheelbase and medium concave. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the highly regarded long standing California DELUXE Distribution.",
       "price": 131.99,
       "category": 6,
       "image": "1a1302f58aabf63184180fdecc62349c.jpg"
@@ -557,7 +557,7 @@
     "fields": {
       "sku": "bds013370047",
       "name": "Anti Hero Pro Complete Skateboard Gerwer Grimple Smoke & Mirrors Green",
-      "description": "8.25\" Wide and 32\" Long with 14.38\" Wheelbase and medium concave\n\nComplete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.25\" Wide and 32\" Long with 14.38\" Wheelbase and medium concave. Complete deck comes supplied and fitted with Enuff Pro Trucks, Enuff Abec 7 sealed black sheild bearings, 52mm Black Sheep wheels, 1\" black truck bolts & griptape. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 137.99,
       "category": 6,
       "image": "f0ad2921bab4b1f8e7c50d909159c244.jpg"
@@ -569,7 +569,7 @@
     "fields": {
       "sku": "bds013370048",
       "name": "Arbor Factory Complete Skateboard Whiskey Forage White",
-      "description": "100% Canadian maple Sustainable construction 8\" Wide with Medium concave 31.75 Long with 14.1 Wheelbase\n\nQuite Unbelievable this complete comes with Ace 44 Classic 8\" worth £70 alone !\n\nWhiskey Formula Wheels manage speed & rougher surfaces with 90A 54mm Diameter.\n\nArbor ABEC 7 Bearings with Spacers for smooth fast rolling superb quality complete skateboard.",
+      "description": "100% Canadian maple Sustainable construction 8\" Wide with Medium concave 31.75 Long with 14.1 Wheelbase. Quite Unbelievable this complete comes with Ace 44 Classic 8\" worth £70 alone !. Whiskey Formula Wheels manage speed & rougher surfaces with 90A 54mm Diameter. Arbor ABEC 7 Bearings with Spacers for smooth fast rolling superb quality complete skateboard.",
       "price": 119.99,
       "category": 6,
       "image": "6b9728b6270c2830a36d5817766bd990.jpg"
@@ -581,7 +581,7 @@
     "fields": {
       "sku": "bds013370049",
       "name": "Blind Bust Out Reaper FP Soft Wheels Factory Complete Blue",
-      "description": "7.625\" Wide Medium concave with Tensor aluminium trucks\n\nExtra Soft 83 A Durometer Wheels with Abec 5 Bearings for a smoother roll on rough surfaces.\n\nSingle pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards.\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
+      "description": "7.625\" Wide Medium concave with Tensor aluminium trucks. Extra Soft 83 A Durometer Wheels with Abec 5 Bearings for a smoother roll on rough surfaces. Single pressed board from Dwindle, a long lasting cold pressed design that outlives many other industry standards. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
       "price": 91.99,
       "category": 6,
       "image": "01b96a1d07bc1f50fa29169862fc81c0.jpg"
@@ -593,7 +593,7 @@
     "fields": {
       "sku": "bds013370050",
       "name": "Alien Workshop Matrix Factory Complete Skateboard Multi",
-      "description": "8\" inches wide x 32\" length with a 14\" wheelbase. Medium concave deck.\n\nFactory built spec complete with Alien branded Truck trucks fitted with medium hardness bushings, Alien Workshop White 53mm height diameter 99A hardness rating quality poured urethane wheels, Abec 7 AWS speed bearings and die cut grip-tape.\n\nSingle cold pressed deck using premium quality 7 ply Canadian maple.\n\nHigh quality manufacturing from Alien Workshop.",
+      "description": "8\" inches wide x 32\" length with a 14\" wheelbase. Medium concave deck. Factory built spec complete with Alien branded Truck trucks fitted with medium hardness bushings, Alien Workshop White 53mm height diameter 99A hardness rating quality poured urethane wheels, Abec 7 AWS speed bearings and die cut grip-tape. Single cold pressed deck using premium quality 7 ply Canadian maple. High quality manufacturing from Alien Workshop.",
       "price": 121.99,
       "category": 6,
       "image": "84ddb4269eabd63cd93116964c810649.jpg"
@@ -605,7 +605,7 @@
     "fields": {
       "sku": "bds013370051",
       "name": "Creature Pro Skateboard Deck Provost Orbital Multi",
-      "description": "8.6\" Wide x 31.98\" Long with 14.25\" Wheelbase and Medium Concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.6\" Wide x 31.98\" Long with 14.25\" Wheelbase and Medium Concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 87.99,
       "category": 7,
       "image": "4922e66d2d75ebce0e2398d7d02a15e1.jpg"
@@ -617,7 +617,7 @@
     "fields": {
       "sku": "bds013370052",
       "name": "Creature Pro Skateboard Deck Navarette 3 Skulls Multi",
-      "description": "8.8\" Wide x 32.57\" Long with 15\" Wheelbase and Medium Concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.8\" Wide x 32.57\" Long with 15\" Wheelbase and Medium Concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 83.99,
       "category": 7,
       "image": "b71b4d3def5bb6b4c31f2c74eaea6773.jpg"
@@ -629,7 +629,7 @@
     "fields": {
       "sku": "bds013370053",
       "name": "Santa Cruz Reissue Skateboard Deck Grabke Exploding Clock Multi",
-      "description": "10\"wide, 30\" long with a 15.375\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose currently Mob and clear are 9\" wide in UK so please be aware we do have 10\" wide arbor black\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the highly regarded long standing California NHS Distribution.",
+      "description": "10\"wide, 30\" long with a 15.375\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose currently Mob and clear are 9\" wide in UK so please be aware we do have 10\" wide arbor black. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the highly regarded long standing California NHS Distribution.",
       "price": 111.99,
       "category": 7,
       "image": "65b24d51befeda64a95801721bd704cd.jpg"
@@ -641,7 +641,7 @@
     "fields": {
       "sku": "bds013370054",
       "name": "Santa Cruz Pro Skateboard Deck Delfino Tarot Pro Multi",
-      "description": "8\" wide, 31.60\" long with a 14.00\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the highly regarded long standing California NHS Distribution.",
+      "description": "8\" wide, 31.60\" long with a 14.00\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the highly regarded long standing California NHS Distribution.",
       "price": 99.99,
       "category": 7,
       "image": "1a63cdc40d42036ccf7d96a3f181ae43.jpg"
@@ -653,7 +653,7 @@
     "fields": {
       "sku": "bds013370055",
       "name": "Real Skateboard Deck Chima Division Yellow",
-      "description": "8.38\" wide, 32.18\" long with a 14.38\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nRenound DLX Distribution premium quality wood.\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
+      "description": "8.38\" wide, 32.18\" long with a 14.38\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Renound DLX Distribution premium quality wood. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
       "price": 78.99,
       "category": 7,
       "image": "ef16392a7bdc4ef96b92a6cfed489d1f.jpg"
@@ -665,7 +665,7 @@
     "fields": {
       "sku": "bds013370056",
       "name": "Real Skateboard Deck Busenitz Shock White/Glow",
-      "description": "8.5\" wide, 32.25\" long with a 14.38\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nRenound DLX Distribution premium quality wood.\n\nMade with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
+      "description": "8.5\" wide, 32.25\" long with a 14.38\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Renound DLX Distribution premium quality wood. Made with 100% Canadian Maple throughout, the number one tried and tested skateboard hardwood.",
       "price": 78.99,
       "category": 7,
       "image": "7110e54b9a2e39d9db7888bbf2197175.jpg"
@@ -677,7 +677,7 @@
     "fields": {
       "sku": "bds013370057",
       "name": "Krooked Skateboard Deck Gonz Family Affair Assorted",
-      "description": "8.5\" wide, 31.8\" long with a 14.25\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.5\" wide, 31.8\" long with a 14.25\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 81.99,
       "category": 7,
       "image": "3b4218dd343676113e2a4dd9acc02c5e.jpg"
@@ -689,7 +689,7 @@
     "fields": {
       "sku": "bds013370058",
       "name": "Krooked Skateboard Deck Worrest Awsome Cycle White",
-      "description": "8.12\" wide, 32.0\" long with a 14.25\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.12\" wide, 32.0\" long with a 14.25\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 81.99,
       "category": 7,
       "image": "36f0f94b1484a3530938912adbea17b3.jpg"
@@ -701,7 +701,7 @@
     "fields": {
       "sku": "bds013370059",
       "name": "Antihero Pro Skateboard Deck Big Bord 2 Raney Cream",
-      "description": "8.63\" wide, 32.04\" long with a 14.5\" wheelbase, medium concave\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.63\" wide, 32.04\" long with a 14.5\" wheelbase, medium concave. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 97.99,
       "category": 7,
       "image": "08bec3a895cfe9f550a961b8da4caf4a.jpg"
@@ -713,7 +713,7 @@
     "fields": {
       "sku": "bds013370060",
       "name": "Antihero Pro Skateboard Deck Cardiel Selectors Yellow",
-      "description": "8.25\" wide, 31.85\" long with a 14.1\" wheelbase,\n\nFree Jessup, Mob or Clear Griptape you choose.\n\nSingle cold pressed deck using premium quality 7 ply 100% Canadian maple.\n\nPressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
+      "description": "8.25\" wide, 31.85\" long with a 14.1\" wheelbase,. Free Jessup, Mob or Clear Griptape you choose. Single cold pressed deck using premium quality 7 ply 100% Canadian maple. Pressed and manufactured by the World Famous California DELUXE Distribution of San francisco California USA.",
       "price": 97.99,
       "category": 7,
       "image": "cccfd2b8589282fe6fc2a0e94e22eb61.jpg"
@@ -725,7 +725,7 @@
     "fields": {
       "sku": "bds013370061",
       "name": "Thunder 149 Skateboard Trucks Joey O'Brien Stamped Pro Polished/Gun Metal",
-      "description": "Set of two trucks enough for one skateboard.\n\nForged baseplate for strength and a polished gun metal colourway.\n\nThunder years of tried and tested quality, made in the USA.",
+      "description": "Set of two trucks enough for one skateboard. Forged baseplate for strength and a polished gun metal colourway. Thunder years of tried and tested quality, made in the USA.",
       "price": 97.99,
       "category": 8,
       "image": "7eade719a99bea3c97e90161e8c65db9.jpg"
@@ -737,7 +737,7 @@
     "fields": {
       "sku": "bds013370062",
       "name": "Thunder 149 H Lights Skateboard Trucks Mariano Customs Polished/Gold",
-      "description": "Set of two trucks enough for one skateboard.\n\nForged baseplate for strength and a polished gun metal colourway.\n\nThunder years of tried and tested quality, made in the USA.",
+      "description": "Set of two trucks enough for one skateboard. Forged baseplate for strength and a polished gun metal colourway. Thunder years of tried and tested quality, made in the USA.",
       "price": 117.99,
       "category": 8,
       "image": "f54a74e919c1084cc91398b48cbf73db.jpg"
@@ -749,7 +749,7 @@
     "fields": {
       "sku": "bds013370063",
       "name": "Venture Skateboard Trucks John Dilo Pro Editions Polished/ Trucker Orange",
-      "description": "Set of two trucks enough for one skateboard.\n\n5.6 hanger size, 8.25\" inch axle size. Suitble for deck widths 8.1\" to 8.4\" (approx guide sizing.)\n\nCast iron trucker on a orange baseplate and a polished hanger.\n\nHigh grade manufacturing and constructuion comes as standard from Venture.",
+      "description": "Set of two trucks enough for one skateboard. 5.6 hanger size, 8.25\" inch axle size. Suitble for deck widths 8.1\" to 8.4\" (approx guide sizing.). Cast iron trucker on a orange baseplate and a polished hanger. High grade manufacturing and constructuion comes as standard from Venture.",
       "price": 79.99,
       "category": 8,
       "image": "38e7d5da52d4feb631ce2dee1dcefa73.jpg"
@@ -761,7 +761,7 @@
     "fields": {
       "sku": "bds013370064",
       "name": "Krux DLK Skateboard Trucks Pac-Man Black/Multi",
-      "description": "Price is for a pair of Trucks enough for one Skateboard. 144mm hanger size for deck width size 8.25\"\n\nT6 Aluminium With Cromoly steel axles for superior strength.\n\nKrux makes some of the best bushings with the perfect shape to achieve super responsive turning.\n\nA keenly priced truck with performance way beyond their cost. Fantastic clearance to reduce any hang ups. Manufactured in the USA for the highest quality.",
+      "description": "Price is for a pair of Trucks enough for one Skateboard. 144mm hanger size for deck width size 8.25\". T6 Aluminium With Cromoly steel axles for superior strength. Krux makes some of the best bushings with the perfect shape to achieve super responsive turning. A keenly priced truck with performance way beyond their cost. Fantastic clearance to reduce any hang ups. Manufactured in the USA for the highest quality.",
       "price": 85.99,
       "category": 8,
       "image": "dd3dcce02b2d2b39a236546f3183143b.jpg"
@@ -773,7 +773,7 @@
     "fields": {
       "sku": "bds013370065",
       "name": "Indy Stage 11 Skateboard Trucks Hollow Omar Hassan Standard Black/Silver",
-      "description": "Price is for one pair of trucks 149mm hanger size, 8.5\" inch axle size. Suitble for deck widths 8.25\" to 8.75\" (approx guide sizing.)\n\nConstructed with a Chromoly steel hollow axle, strengthened grade 8 hollowed out kingpin for strength and lightness.\n\nIndependent Trucks - #1 Choice for Professional Skateboarders since 1978.\n\nRenound high quality construction from the Independent Trucks Company.",
+      "description": "Price is for one pair of trucks 149mm hanger size, 8.5\" inch axle size. Suitble for deck widths 8.25\" to 8.75\" (approx guide sizing.). Constructed with a Chromoly steel hollow axle, strengthened grade 8 hollowed out kingpin for strength and lightness. Independent Trucks - #1 Choice for Professional Skateboarders since 1978. Renound high quality construction from the Independent Trucks Company.",
       "price": 89.99,
       "category": 8,
       "image": "197c0a507983131d183fed9e037acfd9.jpg"
@@ -785,7 +785,7 @@
     "fields": {
       "sku": "bds013370066",
       "name": "Indy Stage 11 Skateboard Trucks Hollow Forged BTG Standard Silver/Ano Red",
-      "description": "Price is for one pair of trucks 149mm hanger size, 8.5\" inch axle size. Suitble for deck widths 8.25\" to 8.75\" (approx guide sizing.)\n\nConstructed with a Chromoly steel hollow axle, strengthened grade 8 hollowed out kingpin for strength and lightness.\n\nIndependent Trucks - #1 Choice for Professional Skateboarders since 1978.\n\nRenound high quality construction from the Independent Trucks Company.",
+      "description": "Price is for one pair of trucks 149mm hanger size, 8.5\" inch axle size. Suitble for deck widths 8.25\" to 8.75\" (approx guide sizing.). Constructed with a Chromoly steel hollow axle, strengthened grade 8 hollowed out kingpin for strength and lightness. Independent Trucks - #1 Choice for Professional Skateboarders since 1978. Renound high quality construction from the Independent Trucks Company.",
       "price": 89.99,
       "category": 8,
       "image": "947c1756af32a3efe1285557fcacd9f1.jpg"
@@ -797,7 +797,7 @@
     "fields": {
       "sku": "bds013370067",
       "name": "Venture 5.2 Skateboard Trucks 92' Full Bleed Team Hi Yellow/Green",
-      "description": "Price is for a pair of 5.6\" wide Trucks\n\n5.2\" hanger width suitable for 8\" to 8.25\" inches width deck.\n\nForged baseplate for strength plus medium hardness rubbers for true turn. Anti-slip axles as standard.\n\nHigh grade manufacturing and constructuion comes as standard from Venture.",
+      "description": "Price is for a pair of 5.6\" wide Trucks. 5.2\" hanger width suitable for 8\" to 8.25\" inches width deck. Forged baseplate for strength plus medium hardness rubbers for true turn. Anti-slip axles as standard. High grade manufacturing and constructuion comes as standard from Venture.",
       "price": 87.99,
       "category": 8,
       "image": "b5c95b745242e8602132b707464995ac.jpg"
@@ -809,7 +809,7 @@
     "fields": {
       "sku": "bds013370068",
       "name": "Krux Skateboard Trucks K5 DLK 90s Standard Multi",
-      "description": "Price is for a pair of Trucks enough for one Skateboard.\n\nT6 Aluminium With Cromoly steel axles for superior strength.\n\nKrux Downlow Kingpin (DLK). Designed to prevent any snags or hang ups during grinds.\n\nManufactured in the USA with Krux superior quality Height 55mm Weight 358g per truck.",
+      "description": "Price is for a pair of Trucks enough for one Skateboard. T6 Aluminium With Cromoly steel axles for superior strength. Krux Downlow Kingpin (DLK). Designed to prevent any snags or hang ups during grinds. Manufactured in the USA with Krux superior quality Height 55mm Weight 358g per truck.",
       "price": 78.99,
       "category": 8,
       "image": "c1e048e50674842a1339dd564f7e0741.jpg"
@@ -821,7 +821,7 @@
     "fields": {
       "sku": "bds013370069",
       "name": "Slime Balls Skateboard Wheels Pac Man Vomit Mini 97a Black",
-      "description": "Wide asymmetrical shape with rounded edge on one side and conical edge on the other giving you a choice of lock-in feel\n\nPrice is for a set of 4 Wheels\n\nAuthorised Pac MAn graphics on this wide riding surface for control on all terrain.\n\nSanta Cruz Wheels flatspot resistant quality poured urethane.",
+      "description": "Wide asymmetrical shape with rounded edge on one side and conical edge on the other giving you a choice of lock-in feel. Price is for a set of 4 Wheels. Authorised Pac MAn graphics on this wide riding surface for control on all terrain. Santa Cruz Wheels flatspot resistant quality poured urethane.",
       "price": 28.99,
       "category": 9,
       "image": "442a7072767e8a47fe67959b64bbd861.jpg"
@@ -833,7 +833,7 @@
     "fields": {
       "sku": "bds013370070",
       "name": "Slime Balls Skateboard Wheels Light Ups OG Slime 78a Blue Green Glitter",
-      "description": "Light Ups wheels feature LED lights that light up when you roll, powered by the rotation of the special wheel spacer and wheel core. No batteries required.\n\nPrice is for a set of 4 Wheels\n\nLight Ups come with removable / replaceable Bronson Speed Co. G2 bearings.\n\nSlimeballs OG Slime shape is a versatile, symmetrical center bearing cruiser wheel with soft, 78a urethane.",
+      "description": "Light Ups wheels feature LED lights that light up when you roll, powered by the rotation of the special wheel spacer and wheel core. No batteries required. Price is for a set of 4 Wheels. Light Ups come with removable / replaceable Bronson Speed Co. G2 bearings. Slimeballs OG Slime shape is a versatile, symmetrical center bearing cruiser wheel with soft, 78a urethane.",
       "price": 31.99,
       "category": 9,
       "image": "d3e5593b682d9911c2bc668e6cd0458a.jpg"
@@ -845,7 +845,7 @@
     "fields": {
       "sku": "bds013370071",
       "name": "OJ Elite EZ Edge Skateboard Wheels Raemers Foundation OG",
-      "description": "Elite Urethane guarantees more speed with a longer lasting roll. Elite Hardline sizes are 99a in durometer\n\nPrice is for a set of 4 Wheels\n\nAn asymmetrical shape featuring a rounded back and a conical front with a wider riding surface for increased lock-in on grinds and control on all surfaces.\n\nHigh quality hand poured urathane and flatspot resistence from one of our most popular choices of wheel brands.",
+      "description": "Elite Urethane guarantees more speed with a longer lasting roll. Elite Hardline sizes are 99a in durometer. Price is for a set of 4 Wheels. An asymmetrical shape featuring a rounded back and a conical front with a wider riding surface for increased lock-in on grinds and control on all surfaces. High quality hand poured urathane and flatspot resistence from one of our most popular choices of wheel brands.",
       "price": 38.99,
       "category": 9,
       "image": "db0de6d0f50265f066523f75d8a215e9.jpg"
@@ -857,7 +857,7 @@
     "fields": {
       "sku": "bds013370072",
       "name": "OJ Elite Hardline Skateboard Wheels Nora Vasconcellos Balloon",
-      "description": "Price is for a set of four wheels. 54mm height diameter, 101a hardness rating suitable for all terrains.\n\nThis wheel is the Nora Vasconcellos Signature Wheel with an original hardline formula.\n\nHardline wheel shape displays a wide surface for stability and consistent slide additionally featuring a hard edge and conical cut for controlled tricks.\n\nOJ Wheels flatspot resistant quality poured urethane from the USA.",
+      "description": "Price is for a set of four wheels. 54mm height diameter, 101a hardness rating suitable for all terrains. This wheel is the Nora Vasconcellos Signature Wheel with an original hardline formula. Hardline wheel shape displays a wide surface for stability and consistent slide additionally featuring a hard edge and conical cut for controlled tricks. OJ Wheels flatspot resistant quality poured urethane from the USA.",
       "price": 42.99,
       "category": 9,
       "image": "7e4a25882993c99371b5d2c9e7a524da.jpg"
@@ -869,7 +869,7 @@
     "fields": {
       "sku": "bds013370073",
       "name": "Spitfire Soft Skateboard Wheels Classic Full 80HD Clear",
-      "description": "Set of four wheels enough for one skateboard\n\nReformulated 80 Duro Performance Urethane for smooth, Soft with Lasting Speed.\n\nMechanically Bonded to a lightweight injection-molded inner core for true bearing seating\n\nAll Spitfire wheels are handpoured, shaped and specifically engineered in San Francisco CA.",
+      "description": "Set of four wheels enough for one skateboard. Reformulated 80 Duro Performance Urethane for smooth, Soft with Lasting Speed. Mechanically Bonded to a lightweight injection-molded inner core for true bearing seating. All Spitfire wheels are handpoured, shaped and specifically engineered in San Francisco CA.",
       "price": 52.99,
       "category": 9,
       "image": "5efdf17d1b67991817bc2c98f3c89870.jpg"
@@ -881,7 +881,7 @@
     "fields": {
       "sku": "bds013370074",
       "name": "Spitfire Formula Four Skateboard Wheels Camo Classics",
-      "description": "Price is for a set of Four Wheels. Highly rated Spitfire Formula Four's True lasting Performance Urethane.\n\n58mm height diameter x 35.5mm width with a 18mm riding surface. 99DU hardness rating suitable for all terrains.\n\nSpitfire's perfect all rounder Classic shape. Renound Spitfire high quality poured 100% urethane.\n\nAll Spitfire wheels are handpoured, shaped and specifically engineered in San Francisco CA.",
+      "description": "Price is for a set of Four Wheels. Highly rated Spitfire Formula Four's True lasting Performance Urethane. 58mm height diameter x 35.5mm width with a 18mm riding surface. 99DU hardness rating suitable for all terrains. Spitfire's perfect all rounder Classic shape. Renound Spitfire high quality poured 100% urethane. All Spitfire wheels are handpoured, shaped and specifically engineered in San Francisco CA.",
       "price": 51.99,
       "category": 9,
       "image": "7e4c56b04cc5a8bf09fcfdca30516aea.jpg"
@@ -893,7 +893,7 @@
     "fields": {
       "sku": "bds013370075",
       "name": "Blind Reaper Character Skateboard Wheels White Red",
-      "description": "Set of four wheels.\n\n52mm height diameter with a 99A hardness rating suitable for all terrains.\n\nVibrant one sided printed Blind graphics.\n\nDwindle high quality poured urethane.",
+      "description": "Set of four wheels. 52mm height diameter with a 99A hardness rating suitable for all terrains. Vibrant one sided printed Blind graphics. Dwindle high quality poured urethane.",
       "price": 38.99,
       "category": 9,
       "image": "308de3ed10616e49dfa5f2b23531a88f.jpg"
@@ -905,7 +905,7 @@
     "fields": {
       "sku": "bds013370076",
       "name": "Blind Reaper Character Skateboard Wheels 99a White Orange",
-      "description": "Set of four wheels.\n\n51mm height diameter with a 99A hardness rating suitable for all terrains.\n\nVibrant one sided printed Blind graphics.\n\nDwindle high quality poured urethane.",
+      "description": "Set of four wheels. 51mm height diameter with a 99A hardness rating suitable for all terrains. Vibrant one sided printed Blind graphics. Dwindle high quality poured urethane.",
       "price": 38.99,
       "category": 9,
       "image": "81e816412da708d07c7668d7d32170b0.jpg"
@@ -917,7 +917,7 @@
     "fields": {
       "sku": "bds013370077",
       "name": "Sushi Skateboard Allen Key Bolts Black",
-      "description": "Pack of eight nuts and Allen key head bolts plus Allen key tool.\n\nBlessed with good luck and fortune.\n\nGreat quality entry level skateboard products from Sushi Co.",
+      "description": "Pack of eight nuts and Allen key head bolts plus Allen key tool. Blessed with good luck and fortune. Great quality entry level skateboard products from Sushi Co.",
       "price": 8.99,
       "category": 10,
       "image": "9dfd85d954f2ca903fbc903bbd97f8c4.jpg"
@@ -929,7 +929,7 @@
     "fields": {
       "sku": "bds013370078",
       "name": "Enuff Skateboard Bolts Allen Key Black Silver",
-      "description": "Pack of eight nuts and bolts plus allen key tool.\n\nTwo silver nuts and bolts for visual board directional guidance.\n\nFlush Allen key head fitment.\n\nGreat quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
+      "description": "Pack of eight nuts and bolts plus allen key tool. Two silver nuts and bolts for visual board directional guidance. Flush Allen key head fitment. Great quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
       "price": 6.99,
       "category": 10,
       "image": "9987e6a2e66151ec385f72ad80fd4788.jpg"
@@ -941,7 +941,7 @@
     "fields": {
       "sku": "bds013370079",
       "name": "Diamond Supply Co. Hella Tight Hardware Silver Bolts",
-      "description": "7 bolts included - 1 Silver bolt\n\nPhillips Head and Diamond wrench included\n\nPremium Diamond Supply Co materials you can trust.",
+      "description": "7 bolts included - 1 Silver bolt. Phillips Head and Diamond wrench included. Premium Diamond Supply Co materials you can trust.",
       "price": 5.99,
       "category": 10,
       "image": "0d46ecce136a69d4efa38daee2718b3a.jpg"
@@ -953,7 +953,7 @@
     "fields": {
       "sku": "bds013370080",
       "name": "Mini Logo Phillips Skateboard Bolts",
-      "description": "Set of 8 Phillips head Bolts enough to attach two trucks to a Skateboard\n\n8 Nylock nuts to keep your trucks secure with no chance of coming loose\n\n1\" Standard truck no riser pad\n\nManufactured in the USA with Mini Logo superior quality.",
+      "description": "Set of 8 Phillips head Bolts enough to attach two trucks to a Skateboard. 8 Nylock nuts to keep your trucks secure with no chance of coming loose. 1\" Standard truck no riser pad. Manufactured in the USA with Mini Logo superior quality.",
       "price": 7.99,
       "category": 10,
       "image": "e295b8c35725e9ad0ed6501348e2efd0.jpg"
@@ -965,7 +965,7 @@
     "fields": {
       "sku": "bds013370081",
       "name": "Thunder 1\" Allen Bolts Tube",
-      "description": "Set of 8 1\" bolts\n\n6 black, 2 green.\n\n1 Allen Key.\n\nThunder tube.",
+      "description": "Set of 8 1\" bolts. 6 black, 2 green. 1 Allen Key. Thunder tube.",
       "price": 5.99,
       "category": 10,
       "image": "102924.jpg"
@@ -977,7 +977,7 @@
     "fields": {
       "sku": "bds013370082",
       "name": "Fracture Skateboards Allen Key Skateboard Bolts",
-      "description": "Set of eight bolts in pack.\n\n1\" inch allen key head.\n\nPerfect size for use without riser pads or can be used with shock pads.\n\nPack contains allen key head tool, sticker and 1 silver directional bolt.",
+      "description": "Set of eight bolts in pack. 1\" inch allen key head. Perfect size for use without riser pads or can be used with shock pads. Pack contains allen key head tool, sticker and 1 silver directional bolt.",
       "price": 6.99,
       "category": 10,
       "image": "C769FAB3981125309F4C47EC3AE5A31D.jpg"
@@ -989,7 +989,7 @@
     "fields": {
       "sku": "bds013370083",
       "name": "Graphic Griptape Santa Cruz Meek Slasher 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 11.99,
       "category": 11,
       "image": "90d39252da6e86d3bfb9464024892ba2.jpg"
@@ -1001,7 +1001,7 @@
     "fields": {
       "sku": "bds013370084",
       "name": "Graphic Griptape Smile Trip 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 9.99,
       "category": 11,
       "image": "7e6043ead1ee088828ca7eb65a400e8e.jpg"
@@ -1013,7 +1013,7 @@
     "fields": {
       "sku": "bds013370085",
       "name": "Graphic Griptape SC Contra Allover 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 11.99,
       "category": 11,
       "image": "58d6e5f65cbc8dd43233253b7a205ed8.jpg"
@@ -1025,7 +1025,7 @@
     "fields": {
       "sku": "bds013370086",
       "name": "Graphic Griptape No Pattern 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 7.99,
       "category": 11,
       "image": "15814e102aef9b2912a4997760e15750.jpg"
@@ -1037,7 +1037,7 @@
     "fields": {
       "sku": "bds013370087",
       "name": "Graphic Griptape Span Clear 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 9.99,
       "category": 11,
       "image": "9bba63df6603ae1d0e63aeba2a94fe39.jpg"
@@ -1049,7 +1049,7 @@
     "fields": {
       "sku": "bds013370088",
       "name": "Graphic Griptape Independent Speed 9\" Wide X 33\" Long One Sheet",
-      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job.\n\nThe finest silicon-carbide grit binding process for grip that will not wear out\n\nHigh-strength, tear-proof and super adhesive that won't peel in extreme heat or cold.\n\nMob the number one choice of professional skateboarders.",
+      "description": "Perfect application with hundreds of perforations to allow air to escape for a bubble-free perfect job. The finest silicon-carbide grit binding process for grip that will not wear out. High-strength, tear-proof and super adhesive that won't peel in extreme heat or cold. Mob the number one choice of professional skateboarders.",
       "price": 9.99,
       "category": 11,
       "image": "8be7855586fd9fa4bb567f53af64c005.jpg"
@@ -1061,7 +1061,7 @@
     "fields": {
       "sku": "bds013370089",
       "name": "Enuff Skateboards Checkered Black Skateboard Griptape",
-      "description": "Size: 33\" length x 9\" inches wide.\n\nSuitable sizing for most common popsicle shaped skateboard decks.\n\nMedium grit high quality single sheet griptape.\n\nGreat quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
+      "description": "Size: 33\" length x 9\" inches wide. Suitable sizing for most common popsicle shaped skateboard decks. Medium grit high quality single sheet griptape. Great quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
       "price": 10.99,
       "category": 11,
       "image": "9a63e9a379bf6c2026641f9e54079aee.jpg"
@@ -1073,7 +1073,7 @@
     "fields": {
       "sku": "bds013370090",
       "name": "Enuff Skateboards Camo Skateboard Griptape",
-      "description": "Size: 33\" length x 9\" inches wide.\n\nSuitable sizing for most common popsicle shaped skateboard decks.\n\nMedium grit high quality single sheet griptape.\n\nGreat quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
+      "description": "Size: 33\" length x 9\" inches wide. Suitable sizing for most common popsicle shaped skateboard decks. Medium grit high quality single sheet griptape. Great quailty manufacturing from beginner to entry level brand Enuff Skateboards.",
       "price": 10.99,
       "category": 11,
       "image": "5b7772d1b360baa8e575684059e50c2b.jpg"

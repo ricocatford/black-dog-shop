@@ -26,12 +26,14 @@
                                 £{{ product.price }}
                             </p>
                         </div>
-                        <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-bold">
-                                {{ product.name }}
-                            </h5>
-                        </div>
+                        <a href="{% url 'product_details' product.id %}">
+                            <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-bold">
+                                    {{ product.name }}
+                                </h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                     {% if forloop.counter|divisibleby:1 %}
