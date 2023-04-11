@@ -11,6 +11,22 @@
             <h2 class="text-center mt-2">
                 All Products
             </h2>
+            <a class="dropdown-toggle" href="#" id="sortDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+                Sort by Price
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li>
+                    <a class="dropdown-item" href="{% url 'products' %}?{% if current_category %}category={{products.category}}&{% endif %}sort=price&direction=asc">
+                        Low to High
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">
+                        High to Low
+                    </a>
+                </li>
+            </ul>
             <hr class="divider mb-5">
         </div>
         <div class="col-12">
