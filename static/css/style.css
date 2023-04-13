@@ -175,6 +175,10 @@ a:focus {
     font-size: 1.5em;
 }
 
+#update-product-form {
+    display: none;
+}
+
 
 /* ----- Media Queries ----- */
 

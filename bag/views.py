@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 
 def view_bag(request):
@@ -36,15 +36,41 @@ def add_to_bag(request, item_id):
     return redirect('products')
 
 
+def update_bag(request, item_id):
+    """ Update products in the bag """
+
+    quantity = int(request.POST.get('quantity'))
+    size = None
+    bag = request.session.get('bag', {})
+
+    if 'product_size' in request.POST:
+        size = request.POST['product_size']
+
+    if size:
+        if quantity > 0:
+            bag[item_id]['items_by_size'][size] = quantity
+        else:
+            del bag[item_id]['items_by_size'][size]
+            if not bag[item_id]['items_by_size']:
+                bag.pop(item_id)
+    else:
+        if quantity > 0:
+            bag[item_id] = quantity
+        else:
+            bag.pop(item_id)
+
+    request.session['bag'] = bag
+    return redirect(reverse('view_bag'))
+
+
 def remove_from_bag(request, item_id):
-    """ Remove products from the bag """
+    """ Remove the item from the  bag """
 
     try:
         size = None
-        bag = request.session.get('bag', {})
-
         if 'product_size' in request.POST:
             size = request.POST['product_size']
+        bag = request.session.get('bag', {})
 
         if size:
             del bag[item_id]['items_by_size'][size]
@@ -56,5 +82,6 @@ def remove_from_bag(request, item_id):
 
         request.session['bag'] = bag
         return HttpResponse(status=200)
+
     except Exception as e:
         return HttpResponse(status=500)

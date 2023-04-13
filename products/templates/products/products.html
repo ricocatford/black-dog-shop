@@ -17,7 +17,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="sort_dropdown">
                 <li>
-                    <a class="dropdown-item" href="{% url 'products' %}?{% if current_category %}category={{products.category}}&{% endif %}sort=price&direction=asc">
+                    <a class="dropdown-item" href="{% url 'products' %}?{% if current_category %}category={{ current_category_name }}&{% endif %}sort=price&direction=asc">
                         Low to High
                     </a>
                 </li>
