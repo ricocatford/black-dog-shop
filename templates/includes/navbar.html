@@ -165,10 +165,8 @@
                     <li class="d-block grand-total">
                         <a class="custom-nav-link d-flex align-items-center" href="{% url 'view_bag' %}">
                             <i class="fa-solid fa-shopping-bag nav-icon"></i>
-                            {% if grand_total %}
-                            {{ grand_total|floatformat:2 }}
-                            {% else %}
-                            £0.00
+                            {% if bag_items %}
+                            {{ product_count}}
                             {% endif %}
                         </a>
                     </li>
