@@ -175,9 +175,14 @@ a:focus {
     font-size: 1.5em;
 }
 
-#update-product-form {
+
+/* ----- Shopping bag page ----- */
+
+.form-update-product-container {
     display: none;
 }
+
+.form-update-product
 
 
 /* ----- Media Queries ----- */

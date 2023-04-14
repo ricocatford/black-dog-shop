@@ -40,6 +40,7 @@ def update_bag(request, item_id):
     """ Update products in the bag """
 
     quantity = int(request.POST.get('quantity'))
+    current_size = request.GET.get('current_size')
     size = None
     bag = request.session.get('bag', {})
 
@@ -48,6 +49,7 @@ def update_bag(request, item_id):
 
     if size:
         if quantity > 0:
+            bag[item_id]['items_by_size'].pop(current_size)
             bag[item_id]['items_by_size'][size] = quantity
         else:
             del bag[item_id]['items_by_size'][size]
