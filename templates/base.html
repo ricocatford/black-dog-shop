@@ -35,13 +35,23 @@
 {% include 'includes/navbar.html' %}
 </header>
 {% if messages %}
-<div class="message-container text-dark"></div>
+    <div class="message-container text-dark">
+        {% for message in messages %}
+            {% include 'includes/notifications/notification-success.html' %}
+        {% endfor %}
+    </div>
 {% endif %}
 
 {% block page_header %}
 {% endblock %}
 
 {% block content %}
+{% endblock %}
+
+{% block postloadjs %}
+<script type="text/javascript">
+    $(".toast").show();
+</script>
 {% endblock %}
 
 {% include 'includes/footer.html' %}

@@ -23,7 +23,7 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbar_clothing_dropdown" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         Clothing
                     </a>
@@ -56,7 +56,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="custom-nav-link dropdown-toggle" href="#" id="navbar_skateboard_dropdown" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         Skateboard
                     </a>
@@ -166,7 +166,9 @@
                         <a class="custom-nav-link d-flex align-items-center" href="{% url 'view_bag' %}">
                             <i class="fa-solid fa-shopping-bag nav-icon"></i>
                             {% if bag_items %}
-                            {{ product_count}}
+                            <span class="product-count">
+                                {{ product_count}}
+                            </span>
                             {% endif %}
                         </a>
                     </li>

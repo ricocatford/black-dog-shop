@@ -10,6 +10,22 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
 /* ----- Navbar ----- */
 
 .nav-logo {
@@ -80,8 +96,19 @@ body {
     font-weight: 700;
 }
 
+.product-count {
+    background: #e01709;
+    border-radius: .25rem;
+    font-size: .9em;
+    line-height: .9rem;
+    color: #fff;
+    padding: .2rem .35rem;
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+}
 
-/* ----- Buttons ----- */
+
+/* ----- Footer ----- */
 
 .footer-icon {
     color: #171717;
