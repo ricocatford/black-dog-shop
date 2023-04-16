@@ -6,8 +6,8 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="row h-100">
+<div class="container shopping-bag-container">
+    <div class="row">
         <div class="col-12 mt-2">
             <h2 class="text-center mt-2 mb-4">
                 Your Shopping Bag
@@ -49,13 +49,12 @@
                             <p class="my-0">
                                 Quantity: {{ item.quantity }}
                             </p>
-                            <div class="col-12 col-md-3 d-flex justify-content-between mt-3">
-                                <p id="update_product_{{ item.item_id }}" class="btn btn-primary update-product"
-                                   role="button">
+                            <div class="col-sm-8 col-md-5 col-lg-3 d-flex justify-content-between mt-3">
+                                <p id="update_product_{{ item.item_id }}" class="text-primary update-product">
                                     Update
                                 </p>
-                                <p class="btn btn-danger remove-product" id="remove_{{ item.item_id }}"
-                                   data-product_size="{{ item.size }}" role="button">
+                                <p class="text-danger remove-product" id="remove_{{ item.item_id }}"
+                                   data-product_size="{{ item.size }}">
                                     Remove
                                 </p>
                             </div>

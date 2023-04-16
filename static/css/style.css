@@ -178,12 +178,22 @@ a:focus {
 
 /* ----- Shopping bag page ----- */
 
+.shopping-bag-container {
+    min-height: calc(100vh - 424px);
+}
+
 .form-update-product-container {
     display: none;
 }
 
-.form-update-product
+.form-update-product .form-control {
+    padding: 0.25rem;
+}
 
+.update-product,
+.remove-product {
+    cursor: pointer;
+}
 
 /* ----- Media Queries ----- */
 
