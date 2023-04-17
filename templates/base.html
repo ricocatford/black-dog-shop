@@ -37,7 +37,15 @@
 {% if messages %}
     <div class="message-container text-dark">
         {% for message in messages %}
-            {% include 'includes/notifications/notification-success.html' %}
+            {% if message.level == 40 %}
+                {% include 'includes/notifications/notification-error.html' %}
+            {% elif message.level == 30 %}
+                {% include 'includes/notifications/notification-warning.html' %}
+            {% elif message.level == 25 %}
+                {% include 'includes/notifications/notification-success.html' %}
+            {% else %}
+                {% include 'includes/notifications/notification-info.html' %}
+            {% endif %}
         {% endfor %}
     </div>
 {% endif %}
