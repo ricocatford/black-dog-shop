@@ -13,142 +13,7 @@
                 Checkout
             </h2>
         </div>
-        <div class="col-12 col-md-6">
-            <div class="d-flex align-items-center instructions-wrapper mb-2">
-                <i class="fa-solid fa-circle-check me-2 fs-2 text-white"></i>
-                <p class="fw-bold text-white my-0">
-                    Complete your order by filling up the form.
-                </p>
-            </div>
-            <form method="POST" action="{% url 'checkout' %}" id="form_payment">
-                {% csrf_token %}
-
-                <div class="row g-3">
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value=""
-                               required="">
-                        <div class="invalid-feedback">
-                            Valid first name is required.
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <label for="lastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="" value=""
-                               required="">
-                        <div class="invalid-feedback">
-                            Valid last name is required.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="username" class="form-label">Username</label>
-                        <div class="input-group has-validation">
-                            <span class="input-group-text">@</span>
-                            <input type="text" class="form-control" id="username" placeholder="Username"
-                                   required="">
-                            <div class="invalid-feedback">
-                                Your username is required.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="email" class="form-label">Email <span
-                                class="text-muted">(Optional)</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                        <div class="invalid-feedback">
-                            Please enter a valid email address for shipping updates.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="address" class="form-label">Address</label>
-                        <input type="text" class="form-control" id="address" placeholder="1234 Main St"
-                               required="">
-                        <div class="invalid-feedback">
-                            Please enter your shipping address.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="address2" class="form-label">Address 2 <span
-                                class="text-muted">(Optional)</span></label>
-                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-                    </div>
-
-                    <div class="col-md-5">
-                        <label for="country" class="form-label">Country</label>
-                        <select class="form-select" id="country" required="">
-                            <option value="">Choose...</option>
-                            <option>United States</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please select a valid country.
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <label for="state" class="form-label">State</label>
-                        <select class="form-select" id="state" required="">
-                            <option value="">Choose...</option>
-                            <option>California</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Please provide a valid state.
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="zip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="zip" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Zip code required.
-                        </div>
-                    </div>
-                </div>
-                <hr class="my-4">
-                <h4 class="mb-3">Payment</h4>
-                <div class="row gy-3">
-                    <div class="col-md-6">
-                        <label for="cc-name" class="form-label">Name on card</label>
-                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                        <small class="text-muted">Full name as displayed on card</small>
-                        <div class="invalid-feedback">
-                            Name on card is required
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <label for="cc-number" class="form-label">Credit card number</label>
-                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Credit card number is required
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="cc-expiration" class="form-label">Expiration</label>
-                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Expiration date required
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="cc-cvv" class="form-label">CVV</label>
-                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Security code required
-                        </div>
-                    </div>
-                </div>
-                <hr class="my-4">
-                <button class="w-100 custom-btn-primary" type="submit">Continue to checkout</button>
-            </form>
-        </div>
-        <div class="col-12 col-md-5 offset-md-1">
+        <div class="col-md-5 order-md-last mb-2">
             <div class="order-summary-container">
                 <div class="table-responsive rounded">
                     <table class="table table-sm">
@@ -208,6 +73,121 @@
                 </div>
             </div>
         </div>
+        <div class="col-12 col-md-7">
+            <div class="d-flex align-items-center instructions-wrapper mb-2">
+                <i class="fa-solid fa-circle-check me-2 fs-2 text-white"></i>
+                <p class="fw-bold text-white my-0">
+                    Complete your order by filling up the form.
+                </p>
+            </div>
+            <form method="POST" action="{% url 'checkout' %}" id="form_payment">
+                {% csrf_token %}
+
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label for="id_full_name" class="form-label">
+                            Full Name <span class="fw-bold">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="id_full_name"
+                               name="full_name" maxlength="64" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="id_email" class="form-label">
+                            Email <span class="fw-bold">*</span>
+                        </label>
+                        <input type="email" class="form-control" id="id_email"
+                               name="email" maxlength="64" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="id_phone_number" class="form-label">
+                            Phone Number <span class="fw-bold">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="id_phone_number"
+                               name="email" maxlength="32" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="id_street_address1" class="form-label">
+                            Street Address <span class="fw-bold">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="id_street_address1"
+                               name="street_address1" maxlength="128" required>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="id_street_address2"
+                               name="street_address2" maxlength="128">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="id_postcode" class="form-label">
+                            Postal Code
+                        </label>
+                        <input type="text" class="form-control" id="id_postcode"
+                               name="postcode" maxlength="16">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="id_town_or_city" class="form-label">
+                            Town / City <span class="fw-bold">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="id_town_or_city"
+                               name="town_or_city" maxlength="32" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="id_country" class="form-label">
+                            Country <span class="fw-bold">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="id_country"
+                               name="country" maxlength="32" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="id_county" class="form-label">
+                            State / County
+                        </label>
+                        <input type="text" class="form-control" id="id_county"
+                               name="county" maxlength="64">
+                    </div>
+                </div>
+                <hr class="my-4">
+                <h4 class="mb-3">Payment</h4>
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <label for="cc-name" class="form-label">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                        <small class="text-muted">Full name as displayed on card</small>
+                        <div class="invalid-feedback">
+                            Name on card is required
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="cc-number" class="form-label">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Credit card number is required
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Expiration date required
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Security code required
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <div class="col-12 col-md-8 mx-auto">
+                    <button class="w-100 custom-btn-primary" type="submit">Continue to checkout</button>
+                </div>
+            </form>
+        </div>
+
     </div>
 </div>
 {% endblock %}
