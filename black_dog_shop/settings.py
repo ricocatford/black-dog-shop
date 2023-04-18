@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'crispy_forms'
     'home',
     'products',
     'bag',
@@ -60,6 +61,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'black_dog_shop.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
@@ -85,6 +88,10 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'bag.contexts.bag_contents', # Shopping bag context
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_form_tags',
+                'crispy_forms.templatetags.crispy_form_field',
+            ]
         },
     },
 ]
