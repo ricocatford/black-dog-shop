@@ -157,8 +157,10 @@
         </div>
     </div>
 </div>
-
-<script>
+{% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
     $(document).ready(function() {
         $(".update-product").click(function() {
             $(this).parent().next().slideToggle(100, "linear");
@@ -175,6 +177,5 @@
             });
         });
     });
-
 </script>
 {% endblock %}

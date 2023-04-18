@@ -242,6 +242,34 @@ a:focus {
 }
 
 
+/* ----- Stripe elements styles ----- */
+
+
+.StripeElement {
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+#card-element {
+    color: #000;
+    border: 1px solid red;
+}
+
+
 /* ----- Media Queries ----- */
 
 @media (min-width: 992px) and (max-width: 1199px) {

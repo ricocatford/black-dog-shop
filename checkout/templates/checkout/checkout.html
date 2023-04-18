@@ -82,9 +82,11 @@
             </div>
             <form method="POST" action="{% url 'checkout' %}" id="form_payment">
                 {% csrf_token %}
-
                 <div class="row g-3">
                     <div class="col-12">
+                        <h4 class="mb-3">
+                            Details
+                        </h4>
                         <label for="id_full_name" class="form-label">
                             Full Name <span class="fw-bold">*</span>
                         </label>
@@ -142,52 +144,30 @@
                             State / County
                         </label>
                         <input type="text" class="form-control" id="id_county"
-                               name="county" maxlength="64">
+                               name="county" maxlength="32">
                     </div>
                 </div>
                 <hr class="my-4">
-                <h4 class="mb-3">Payment</h4>
-                <div class="row gy-3">
-                    <div class="col-md-6">
-                        <label for="cc-name" class="form-label">Name on card</label>
-                        <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                        <small class="text-muted">Full name as displayed on card</small>
-                        <div class="invalid-feedback">
-                            Name on card is required
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <label for="cc-number" class="form-label">Credit card number</label>
-                        <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Credit card number is required
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="cc-expiration" class="form-label">Expiration</label>
-                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Expiration date required
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <label for="cc-cvv" class="form-label">CVV</label>
-                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                        <div class="invalid-feedback">
-                            Security code required
-                        </div>
-                    </div>
-                </div>
+                <h4 class="mb-3">
+                    Payment
+                </h4>
+                <fieldset class="px-3">
+                    <div class="mb-3" id="card-element"></div>
+                    <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                </fieldset>
                 <hr class="my-4">
                 <div class="col-12 col-md-8 mx-auto">
                     <button class="w-100 custom-btn-primary" type="submit">Continue to checkout</button>
                 </div>
             </form>
         </div>
-
     </div>
 </div>
+{% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+{{ stripe_public_key|json_script:"id_stripe_public_key" }}
+{{ client_secret|json_script:"id_client_secret" }}
+<script type="text/javascript" src="{% static 'checkout/js/stripe-elements-script.js' %}">
+</script>
 {% endblock %}

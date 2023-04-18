@@ -26,6 +26,8 @@
     </script>
     <script src="https://kit.fontawesome.com/6aecce4a80.js" crossorigin="anonymous">
     </script>
+    <script src="https://js.stripe.com/v3/">
+    </script>
     {% endblock %}
 
     <title>Black Dog Shop - Skateboards {% block extra_title %}{% endblock %}</title>
@@ -57,10 +59,7 @@
 {% endblock %}
 
 {% block postloadjs %}
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(".toast").toast("show");
-    });
+<script type="text/javascript" src="{% static 'js/script.js' %}">
 </script>
 {% endblock %}
 

@@ -18,7 +18,7 @@ class Order(models.Model):
     country = models.CharField(max_length=32, null=False, blank=False)
     postcode = models.CharField(max_length=16, null=True, blank=True)
     town_or_city = models.CharField(max_length=32, null=False, blank=False)
-    county = models.CharField(max_length=64, null=True, blank=True)
+    county = models.CharField(max_length=32, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
     delivery_cost = models.DecimalField(max_digits=8, decimal_places=2, null=False, default=0)
     order_total = models.DecimalField(max_digits=12, decimal_places=2, null=False, default=0)

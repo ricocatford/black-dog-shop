@@ -7,10 +7,7 @@
 {% block content %}
 <div class="container">
     <div class="row h-100">
-        <div class="col-12">
-            <h2 class="text-center mt-2">
-                All Products
-            </h2>
+        <div class="col-12 mt-2">
             <a class="dropdown-toggle" href="#" id="sort_dropdown" role="button"
                data-bs-toggle="dropdown" aria-expanded="false">
                 Sort by Price
@@ -22,7 +19,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">
+                    <a class="dropdown-item" href="{% url 'products' %}?{% if current_category %}category={{ current_category_name }}&{% endif %}sort=price&direction=desc">
                         High to Low
                     </a>
                 </li>
