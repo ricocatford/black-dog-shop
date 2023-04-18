@@ -141,6 +141,10 @@ body {
     background: transparent;
 }
 
+.btn-sm {
+    padding: .25rem 1rem;
+}
+
 
 /* ----- Links ----- */
 
@@ -220,7 +224,18 @@ a:focus {
 .update-product,
 .remove-product {
     cursor: pointer;
+    margin-bottom: 0;
 }
+
+
+/* ----- Checkout page ----- */
+
+.instructions-wrapper {
+    padding: .75rem 1.25rem;
+    background: #449c19;
+    border-radius: .25rem;
+}
+
 
 /* ----- Media Queries ----- */
 

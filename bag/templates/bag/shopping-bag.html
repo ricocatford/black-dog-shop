@@ -8,7 +8,7 @@
 {% block content %}
 <div class="container shopping-bag-container">
     <div class="row">
-        <div class="col-12 mt-2">
+        <div class="col-12">
             <h2 class="text-center mt-2 mb-4">
                 Your Shopping Bag
             </h2>
@@ -35,21 +35,21 @@
                         <td class="p-3 w-25">
                             <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                         </td>
-                        <td class="py-3">
+                        <td class="py-2">
                             <a href="{% url 'product_details' item.product.id %}">
-                                <p class="my-0 fw-bold">
+                                <p class="mt-0 mb-1 fw-bold">
                                     {{ item.product.name }}
                                 </p>
                             </a>
                             {% if item.product.has_sizes %}
-                            <p class="mt-1 mb-0">
+                            <p class="mb-0">
                                 Size: {{ item.size|upper }}
                             </p>
                             {% endif %}
-                            <p class="my-0">
+                            <p class="mb-2">
                                 Quantity: {{ item.quantity }}
                             </p>
-                            <div class="col-sm-8 col-md-5 col-lg-3 d-flex justify-content-between mt-3">
+                            <div class="col-sm-8 col-md-5 col-lg-3 d-flex justify-content-between">
                                 <p id="update_product_{{ item.item_id }}" class="text-primary update-product">
                                     Update
                                 </p>
@@ -68,7 +68,7 @@
                                             <label class="my-1 fw-bold" for="product_size">
                                                 Size:
                                             </label>
-                                            <select class="form-control w-50" name="product_size" id="product_size">
+                                            <select class="form-control w-25" name="product_size" id="product_size">
                                                 <option value="s">
                                                     S
                                                 </option>
@@ -88,7 +88,7 @@
                                             <label class="mt-2 mb-1 fw-bold" for="id_qty_{{ product.id }}">
                                                 Quantity:
                                             </label>
-                                            <select class="form-control w-50" name="quantity"
+                                            <select class="form-control w-25" name="quantity"
                                                     id="id_qty_{{ product.id }}" data-item_id="{{ product.id }}">
                                                 <option value="1" selected>
                                                     1
@@ -123,14 +123,14 @@
                                             </select>
                                         </div>
                                         <div class="col-12">
-                                            <input type="submit" class="custom-btn-primary mt-3"
+                                            <input type="submit" class="custom-btn-primary btn-sm mt-3"
                                                    value="Confirm">
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </td>
-                        <td class="py-3 text-end">
+                        <td class="py-2 text-end">
                             <p class="my-0">
                                 £{{ item.product.price | calc_subtotal:item.quantity }}
                             </p>
@@ -162,7 +162,7 @@
 <script>
     $(document).ready(function() {
         $(".update-product").click(function() {
-            $(this).parent().next().slideToggle(200, "linear");
+            $(this).parent().next().slideToggle(100, "linear");
         });
         $(".remove-product").click(function(e) {
             var csrfToken = "{{ csrf_token }}";
