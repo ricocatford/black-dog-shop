@@ -29,7 +29,6 @@
                         </th>
                     </tr>
                     </thead>
-
                     {% for item in bag_items %}
                     <tr>
                         <td class="p-3 w-25">
@@ -64,11 +63,11 @@
                                     {% csrf_token %}
                                     <div class="form-row">
                                         {% if item.size %}
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-12 col-md-6">
                                             <label class="my-1 fw-bold" for="product_size">
                                                 Size:
                                             </label>
-                                            <select class="form-control w-25" name="product_size" id="product_size">
+                                            <select class="form-select w-50" name="product_size" id="product_size">
                                                 <option value="s">
                                                     S
                                                 </option>
@@ -84,11 +83,11 @@
                                             </select>
                                         </div>
                                         {% endif %}
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-12 col-md-6">
                                             <label class="mt-2 mb-1 fw-bold" for="id_qty_{{ product.id }}">
                                                 Quantity:
                                             </label>
-                                            <select class="form-control w-25" name="quantity"
+                                            <select class="form-select w-50" name="quantity"
                                                     id="id_qty_{{ product.id }}" data-item_id="{{ product.id }}">
                                                 <option value="1" selected>
                                                     1
@@ -122,7 +121,7 @@
                                                 </option>
                                             </select>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-12 col-md-6">
                                             <input type="submit" class="custom-btn-primary btn-sm mt-3"
                                                    value="Confirm">
                                         </div>
