@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     card.mount('#card-element');
 
-    // Display error messages from Stripe Payments input
+    // Display error messages for Stripe Payments input
     card.addEventListener('change', function(e) {
 
         if (e.error) {

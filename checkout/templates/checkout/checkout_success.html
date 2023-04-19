@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-12 mt-2">
             <h2 class="text-center mt-2 mb-4">
-                Checkout
+                Checkout success!
             </h2>
         </div>
         <div class="col-md-6 col-lg-5 order-md-last mb-3">
@@ -80,7 +80,6 @@
                     Complete your order by filling up the form.
                 </p>
             </div>
-
             <form method="POST" action="{% url 'checkout' %}" id="form_payment">
                 {% csrf_token %}
                 <div class="row g-3">
