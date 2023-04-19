@@ -1,3 +1,4 @@
+import decimal
 import uuid
 
 from django.db import models
@@ -43,7 +44,7 @@ class Order(models.Model):
         """ Override original save method to set the order number if it has not been set already """
         if not self.order_number:
             self.order_number = self._generate_order_number()
-        super.save(*args, **kwargs)
+        super().save(*args, **kwargs)
 
     def _str_(self):
         return self.order_number
@@ -59,9 +60,8 @@ class OrderLineItem(models.Model):
 
     def save(self, *args, **kwargs):
         """ Override original save method to set the lineitem total and update order total """
-        if not self.order_number:
-            self.lineitem_total = self.product.price * self.quantity
-        super.save(*args, **kwargs)
+        self.lineitem_total = self.product.price * self.quantity
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
