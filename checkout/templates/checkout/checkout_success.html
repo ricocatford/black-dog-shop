@@ -8,78 +8,117 @@
 {% block content %}
 <div class="container shopping-bag-container">
     <div class="row">
-        <div class="col-12 mt-2">
+        <div class="col-12">
             <h2 class="text-center mt-2 mb-4">
-                Checkout success!
+                Order confirmation
             </h2>
         </div>
-        <div class="col-md-6 col-lg-5 order-md-last mb-3">
-            <div class="order-summary-container">
-                <div class="table-responsive rounded">
-                    <table class="table table-sm">
-                        <thead class="text-black">
-                        <tr>
-                            <th scope="col">
-                            </th>
-                            <th scope="col">
-                                Product
-                            </th>
-                            <th scope="col" class="text-end">
-                                Subtotal
-                            </th>
-                        </tr>
-                        </thead>
-                        {% for item in bag_items %}
-                        <tr>
-                            <td class="p-3 w-25">
-                                <img class="img-fluid rounded" src="{{ item.product.image.url }}">
-                            </td>
-                            <td class="py-2">
-                                <a href="{% url 'product_details' item.product.id %}">
-                                    <p class="mt-0 mb-1 fw-bold">
-                                        {{ item.product.name }}
-                                    </p>
-                                </a>
-                                {% if item.product.has_sizes %}
-                                <p class="mb-0">
-                                    Size: {{ item.size|upper }}
-                                </p>
-                                {% endif %}
-                                <p class="mb-2">
-                                    Quantity: {{ item.quantity }}
-                                </p>
-                            </td>
-                            <td class="py-2 text-end">
-                                <p class="my-0">
-                                    £{{ item.product.price | calc_subtotal:item.quantity }}
-                                </p>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                        <tr class="">
-                            <td colspan="5" class="pt-3 text-end">
-                                <h6>
-                                    Bag Total: £{{ total|floatformat:2 }}
-                                </h6>
-                                <h6>
-                                    Delivery: £{{ delivery|floatformat:2 }}
-                                </h6>
-                                <h4 class="mt-4">
-                                    Grand Total: £{{ grand_total|floatformat:2 }}
-                                </h4>
-                            </td>
-                        </tr>
-                    </table>
+        <div class="col-12">
+            <div class="d-flex align-items-center justify-content-center confirmation-wrapper mb-4">
+                <i class="fa-solid fa-circle-check me-2 fs-2 text-white"></i>
+                <p class="fw-bold text-white my-0">
+                    Your order has been placed. Below you can find all the details. Thank you for shopping with us!
+                </p>
+            </div>
+        </div>
+        <div class="col-md-5 order-md-last mb-4">
+            <div class="order-details-container">
+                <div class="col-12 mb-4">
+                    <h3 class="text-center">
+                        Order details
+                    </h3>
+                    <hr>
+                    <p class="fw-bold mb-0">
+                        Order number:
+                    </p>
+                    <p>
+                        #{{ order.order_number }}
+                    </p>
+                    <p class="fw-bold mb-0">
+                        Created on:
+                    </p>
+                    <p>
+                        {{ order.date }}
+                    </p>
                 </div>
+                <div class="col-12">
+                    <h3 class="text-center">
+                        Delivery information
+                    </h3>
+                    <hr>
+                    <p class="fw-bold mb-0">
+                        Full name:
+                    </p>
+                    <p>
+                        {{ order.full_name }}
+                    </p>
+                    <p class="fw-bold mb-0">
+                        Delivery address:
+                    </p>
+                    <p>
+                        {{ order.street_address1 }}, {{ order.town_or_city }}, {{ order.country }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="table-responsive rounded">
+                <table class="table table-sm">
+                    <thead class="text-black">
+                    <tr>
+                        <th scope="col">
+                        </th>
+                        <th scope="col">
+                            Product
+                        </th>
+                        <th scope="col" class="text-end">
+                            Subtotal
+                        </th>
+                    </tr>
+                    </thead>
+                    {% for item in order.lineitems.all %}
+                    <tr>
+                        <td class="p-3 w-25">
+                            <img class="img-fluid rounded" src="{{ item.product.image.url }}">
+                        </td>
+                        <td class="py-2">
+                            <a href="{% url 'product_details' item.product.id %}">
+                                <p class="mt-0 mb-1 fw-bold">
+                                    {{ item.product.name }}
+                                </p>
+                            </a>
+                            {% if item.product_size %}
+                            <p class="mb-0">
+                                Size: {{ item.product_size|upper }}
+                            </p>
+                            {% endif %}
+                            <p class="mb-2">
+                                Quantity: {{ item.quantity }}
+                            </p>
+                        </td>
+                        <td class="py-2 text-end">
+                            <p class="my-0">
+                                £{{ item.product.price | calc_subtotal:item.quantity }}
+                            </p>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <td colspan="5" class="pt-3 text-end">
+                            <h6>
+                                Order total: £{{ order.order_total|floatformat:2 }}
+                            </h6>
+                            <h6>
+                                Delivery cost: £{{ order.delivery_cost|floatformat:2 }}
+                            </h6>
+                            <h4 class="mt-4">
+                                Grand Total: £{{ order.grand_total|floatformat:2 }}
+                            </h4>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
 </div>
-{% endblock %}
-{% block postloadjs %}
-{{ block.super }}
-{{ stripe_public_key|json_script:"id_stripe_public_key" }}
-{{ client_secret|json_script:"id_client_secret" }}
-<script type="text/javascript" src="{% static 'checkout/js/stripe-elements-script.js' %}">
-</script>
 {% endblock %}

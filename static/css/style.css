@@ -126,7 +126,7 @@ body {
 .custom-btn-primary {
     border: 2px solid #242424;
     border-radius: .5rem;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -141,7 +141,7 @@ body {
 }
 
 .btn-sm {
-    padding: .25rem 1rem;
+    padding: .25rem .75rem;
 }
 
 
@@ -227,15 +227,24 @@ a:focus {
 }
 
 
-/* ----- Checkout page ----- */
+/* ----- Checkout and Checkout success page ----- */
 
-.instructions-wrapper {
+.instructions-wrapper,
+.confirmation-wrapper {
     padding: .75rem 1.25rem;
-    background: #449c19;
     border-radius: .25rem;
 }
 
-.order-summary-container {
+.instructions-wrapper {
+    background: #19849c;
+}
+
+.confirmation-wrapper {
+    background: #449c19;
+}
+
+.order-summary-container,
+.order-details-container {
     background: #f4f4f4;
     padding: .5rem 1rem;
 }
