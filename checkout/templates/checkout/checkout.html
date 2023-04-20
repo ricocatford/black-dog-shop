@@ -147,6 +147,16 @@
                         <input type="text" class="form-control" id="id_county"
                                name="county" maxlength="32">
                     </div>
+                    {% if user.is_authenticated %}
+
+                    <div class="custom-control custom-checkbox">
+                        <hr class="my-4">
+                        <input type="checkbox" class="custom-control-input" id="id_save_info" name="save_info">
+                        <label class="custom-control-label" for="id_save_info">
+                            Save this information for next time.
+                        </label>
+                    </div>
+                    {% endif %}
                 </div>
                 <hr class="my-4">
                 <h4 class="mb-3">
@@ -155,6 +165,7 @@
                 <fieldset class="">
                     <div class="mb-3" id="card-element"></div>
                     <div class="mb-3 text-danger d-flex" id="card-errors" role="alert"></div>
+                    <input type="hidden" value="{{ client_secret }}" name="client_secret">
                 </fieldset>
                 <hr class="my-4">
                 <div class="col-12 col-md-8 mx-auto">
