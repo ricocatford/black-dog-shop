@@ -137,8 +137,14 @@
                         <label for="id_country" class="form-label">
                             Country <span class="fw-bold">*</span>
                         </label>
-                        <input type="text" class="form-control" id="id_country"
-                               name="country" maxlength="32" required>
+                        {% load countries %}
+                        {% get_countries as countries %}
+                        <select type="text" class="form-select" id="id_country"
+                                name="country" maxlength="32" required>
+                            {% for country in countries %}
+                            <option value="{{ country.code }}">{{ country.name }}</option>
+                            {% endfor %}
+                        </select>
                     </div>
                     <div class="col-md-6">
                         <label for="id_county" class="form-label">
