@@ -95,7 +95,7 @@ $(document).ready(function() {
                         </p>
                     `
                     errorDiv.html(added_html);
-                    $('#form_payment').fadeToggle(100);
+                    $('#payment_form').fadeToggle(100);
                     card.update({'disabled': false});
                     $('#submit-button').attr('disabled', false);
                 } else {

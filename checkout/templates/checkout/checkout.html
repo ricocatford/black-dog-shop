@@ -8,7 +8,7 @@
 {% block content %}
 <div class="container shopping-bag-container">
     <div class="row">
-        <div class="col-12 mt-2">
+        <div class="col-12">
             <h2 class="text-center mt-2 mb-4">
                 Checkout
             </h2>
@@ -81,7 +81,7 @@
                 </p>
             </div>
 
-            <form method="POST" action="{% url 'checkout' %}" id="form_payment">
+            <form method="POST" action="{% url 'checkout' %}" id="payment_form">
                 {% csrf_token %}
                 <div class="row g-3">
                     <div class="col-12">
