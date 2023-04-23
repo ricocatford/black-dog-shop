@@ -46,56 +46,43 @@
                         </h4>
                     </div>
                     <div class="col-12">
-                        <label for="id_phone_number" class="form-label">
+                        <label for="id_default_phone_number" class="form-label">
                             Phone Number
                         </label>
-                        <input type="text" class="form-control" id="id_phone_number"
-                               name="phone_number" maxlength="64">
+                        {{ form.default_phone_number | as_crispy_field }}
                     </div>
                     <div class="col-12">
                         <label for="id_street_address1" class="form-label">
                             Street Address
                         </label>
-                        <input type="text" class="form-control" id="id_street_address1"
-                               name="street_address1" maxlength="128">
+                        {{ form.default_street_address1 | as_crispy_field }}
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control" id="id_street_address2"
-                               name="street_address2" maxlength="128">
+                        {{ form.default_street_address2 | as_crispy_field }}
                     </div>
                     <div class="col-md-4">
                         <label for="id_postcode" class="form-label">
                             Postal Code
                         </label>
-                        <input type="text" class="form-control" id="id_postcode"
-                               name="postcode" maxlength="16">
+                        {{ form.default_postcode | as_crispy_field }}
                     </div>
                     <div class="col-md-8">
                         <label for="id_town_or_city" class="form-label">
                             Town / City
                         </label>
-                        <input type="text" class="form-control" id="id_town_or_city"
-                               name="town_or_city" maxlength="32">
+                        {{ form.default_town_or_city | as_crispy_field }}
                     </div>
                     <div class="col-md-6">
                         <label for="id_country" class="form-label">
                             Country
                         </label>
-                        {% load countries %}
-                        {% get_countries as countries %}
-                        <select type="text" class="form-select" id="id_country"
-                                name="country" maxlength="32">
-                            {% for country in countries %}
-                            <option value="{{ country.code }}">{{ country.name }}</option>
-                            {% endfor %}
-                        </select>
+                        {{ form.default_country | as_crispy_field }}
                     </div>
                     <div class="col-md-6">
                         <label for="id_county" class="form-label">
                             State / County
                         </label>
-                        <input type="text" class="form-control" id="id_county"
-                               name="county" maxlength="32">
+                        {{ form.default_county | as_crispy_field }}
                     </div>
                     <div class="col-12 col-md-8 mx-auto">
                         <button class="w-100 custom-btn-primary" type="submit">Save changes</button>
@@ -104,6 +91,7 @@
             </form>
         </div>
     </div>
+    <hr class="mb-4">
     <div class="row">
         <div class="col-12">
             <div class="d-flex align-items-center mb-3">
@@ -114,9 +102,8 @@
             </div>
         </div>
         <div class="col-12">
-            {{ orders }}
             {% for order in orders %}
-                {{ order.order_number }}
+                <a href="{% url 'order_history' order.order_number %}">{{ order.order_number }}</a>
             {% endfor %}
         </div>
     </div>

@@ -120,5 +120,14 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-12">
+            {% if from_profile %}
+                <a class="custom-btn-primary" href="{% url 'profile' %}">
+                    Back to Profile
+                </a>
+            {% endif %}
+        </div>
+    </div>
 </div>
 {% endblock %}
