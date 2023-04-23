@@ -175,7 +175,7 @@
                 </fieldset>
                 <hr class="my-4">
                 <div class="col-12 col-md-8 mx-auto">
-                    <button class="w-100 custom-btn-primary" type="submit">Place Order</button>
+                    <button class="w-100 custom-btn-primary" id="submit_button">Place Order</button>
                 </div>
             </form>
         </div>
@@ -186,6 +186,6 @@
 {{ block.super }}
 {{ stripe_public_key|json_script:"id_stripe_public_key" }}
 {{ client_secret|json_script:"id_client_secret" }}
-<script type="text/javascript" src="{% static 'checkout/js/stripe-elements-script.js' %}">
+<script type="text/javascript" src="{% static 'checkout/js/stripe-script.js' %}">
 </script>
 {% endblock %}

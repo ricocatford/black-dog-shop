@@ -106,6 +106,7 @@ def checkout(request):
         )
 
         order_form = OrderForm()
+        print(intent)
 
     template = 'checkout/checkout.html'
     context = {
