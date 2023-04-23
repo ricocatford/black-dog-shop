@@ -249,6 +249,10 @@ a:focus {
     padding: .5rem 1rem;
 }
 
+.order-number {
+    overflow-wrap: break-word;
+}
+
 
 /* ----- Stripe input styles ----- */
 

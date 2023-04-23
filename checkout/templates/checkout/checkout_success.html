@@ -14,12 +14,14 @@
             </h2>
         </div>
         <div class="col-12">
+            {% if not from_profile %}
             <div class="d-flex align-items-center justify-content-center confirmation-wrapper mb-4">
                 <i class="fa-solid fa-circle-check me-2 fs-2 text-white"></i>
                 <p class="fw-bold text-white my-0">
                     Your order has been placed. Below you can find all the details. Thank you for shopping with us!
                 </p>
             </div>
+            {% endif %}
         </div>
         <div class="col-md-5 order-md-last mb-4">
             <div class="order-details-container">
@@ -31,7 +33,7 @@
                     <p class="fw-bold mb-0">
                         Order number:
                     </p>
-                    <p>
+                    <p class="order-number">
                         #{{ order.order_number }}
                     </p>
                     <p class="fw-bold mb-0">
