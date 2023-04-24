@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-<div class="container shopping-bag-container" xmlns="http://www.w3.org/1999/html">
+<div class="container shopping-bag-container">
     <div class="row">
         <div class="col-12">
             <h2 class="text-center mt-2 mb-4">
@@ -16,7 +16,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6 mx-auto">
-            <form method="POST" action="{% url 'add_product' %}">
+            <form method="POST" action="{% url 'add_product' %}" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form | crispy }}
                 <div class="col-12 text-center">

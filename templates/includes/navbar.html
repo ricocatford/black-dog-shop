@@ -94,6 +94,13 @@
                     </ul>
                 </li>
                 {% if request.user.is_authenticated %}
+                    {% if request.user.is_superuser %}
+                    <li class="nav-item d-lg-none">
+                        <a class="custom-nav-link" href="{% url 'add_product' %}">
+                            Product Management
+                        </a>
+                    </li>
+                    {% endif %}
                 <li class="nav-item d-lg-none">
                     <a class="custom-nav-link" href="{% url 'profile' %}">
                         My Profile
@@ -133,6 +140,13 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                    <li>
+                                        <a class="dropdown-item" href="{% url 'add_product' %}">
+                                            Product Management
+                                        </a>
+                                    </li>
+                                {% endif %}
                             <li>
                                 <a class="dropdown-item" href="{% url 'profile' %}">
                                     My Profile
