@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bag_tools %}
+
+{% block page_header %}
+{% endblock %}
+
+{% block content %}
+<div class="container shopping-bag-container" xmlns="http://www.w3.org/1999/html">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center mt-2 mb-4">
+                Add a Product
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 mx-auto">
+            <form method="POST" action="{% url 'add_product' %}">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="col-12 text-center">
+                    <button type="submit" class="custom-btn-primary mt-4 px-5">
+                        Add product
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
