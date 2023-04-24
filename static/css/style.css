@@ -157,6 +157,14 @@ a:focus {
     color: #606060;
 }
 
+
+/* ----- Bootstrap Container ----- */
+
+.custom-container {
+    min-height: calc(100vh - 424px);
+}
+
+
 /* ----- Home page ----- */
 
 .custom-card {
@@ -207,10 +215,6 @@ a:focus {
 
 
 /* ----- Shopping bag page ----- */
-
-.shopping-bag-container {
-    min-height: calc(100vh - 424px);
-}
 
 .form-update-product-container {
     display: none;
