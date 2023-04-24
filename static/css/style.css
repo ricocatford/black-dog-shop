@@ -158,7 +158,7 @@ a:focus {
 }
 
 
-/* ----- Bootstrap Container ----- */
+/* ----- Container ----- */
 
 .custom-container {
     min-height: calc(100vh - 424px);
