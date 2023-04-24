@@ -76,7 +76,7 @@ def product_details(request, product_id):
 def add_product(request):
     """ A view for adding products to the shop """
 
-    if not request.user_is_superuser:
+    if not request.user.is_superuser:
         messages.error(request, 'Sorry, only staff can do this.')
         return redirect(reverse('home'))
 
@@ -103,7 +103,7 @@ def add_product(request):
 def edit_product(request, product_id):
     """ A view for editing products in the shop """
 
-    if not request.user_is_superuser:
+    if not request.user.is_superuser:
         messages.error(request, 'Sorry, only staff can do this.')
         return redirect(reverse('home'))
 
@@ -133,7 +133,7 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     """ A view for deleting products in the shop """
 
-    if not request.user_is_superuser:
+    if not request.user.is_superuser:
         messages.error(request, 'Sorry, only staff can do this.')
         return redirect(reverse('home'))
 
