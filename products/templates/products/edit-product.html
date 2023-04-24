@@ -10,13 +10,13 @@
     <div class="row">
         <div class="col-12">
             <h2 class="text-center mt-2 mb-4">
-                Add a Product
+                Edit Product
             </h2>
         </div>
     </div>
     <div class="row">
         <div class="col-12 col-md-6 mx-auto">
-            <form method="POST" action="{% url 'add_product' %}" enctype="multipart/form-data">
+            <form method="POST" action="{% url 'edit_product' product.id %}" enctype="multipart/form-data">
                 {% csrf_token %}
                 <div class="row g-3">
                     <div class="col-sm-6">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-12 text-center">
                         <button type="submit" class="custom-btn-primary mt-4 px-5">
-                            Add product
+                            Update product
                         </button>
                     </div>
                 </div>
