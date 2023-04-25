@@ -169,7 +169,7 @@ a:focus {
 /* ----- Container ----- */
 
 .custom-container {
-    min-height: calc(100vh - 470px);
+    min-height: calc(100vh - 380px);
 }
 
 

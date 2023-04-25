@@ -18,21 +18,6 @@
                                 All Products
                             </a>
                         </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                Contact
-                            </a>
-                        </li>
-                        <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                About
-                            </a>
-                        </li>
                     </ul>
                 </div>
 
@@ -43,13 +28,13 @@
                     <ul class="nav flex-column">
                         {% if request.user.is_authenticated %}
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
+                            <a href="{% url 'profile' %}" class="nav-link p-0 text-dark">
                                 My Profile
                             </a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="nav-link p-0 text-dark">
-                                My Shopping Bag
+                            <a href="{% url 'view_bag' %}" class="nav-link p-0 text-dark">
+                                My Bag
                             </a>
                         </li>
                         <li class="nav-item mb-2">
@@ -58,6 +43,11 @@
                             </a>
                         </li>
                         {% else %}
+                        <li class="nav-item mb-2">
+                            <a href="{% url 'view_bag' %}" class="nav-link p-0 text-dark">
+                                My Bag
+                            </a>
+                        </li>
                         <li class="nav-item mb-2">
                             <a href="{% url 'account_signup' %}" class="nav-link p-0 text-dark">
                                 Register
@@ -73,10 +63,10 @@
                 </div>
 
                 <div class="col-md-7 offset-md-1 mb-3">
-                    <form>
-                        <h5 class="fw-bold">
-                            Search for products
-                        </h5>
+                    <h5 class="fw-bold">
+                        Search for products
+                    </h5>
+                    <form method="GET" action="{% url 'products' %}">
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="footer-search" class="visually-hidden">Search</label>
                             <input id="footer-search" class="form-control" type="search" placeholder="Search"
