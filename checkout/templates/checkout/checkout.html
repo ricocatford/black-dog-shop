@@ -2,9 +2,6 @@
 {% load static %}
 {% load bag_tools %}
 
-{% block page_header %}
-{% endblock %}
-
 {% block content %}
 <div class="container custom-container">
     <div class="row">
@@ -177,6 +174,7 @@
     </div>
 </div>
 {% endblock %}
+
 {% block postloadjs %}
 {{ block.super }}
 {{ stripe_public_key|json_script:"id_stripe_public_key" }}

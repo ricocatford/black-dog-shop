@@ -148,8 +148,18 @@ body {
     background: transparent;
 }
 
+.btn-variant:hover,
+.btn-variant:focus {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
 .btn-sm {
     padding: .25rem .75rem;
+}
+
+.btn-lg {
+    font-size: 1.15em;
 }
 
 
@@ -175,13 +185,34 @@ a:focus {
 
 /* ----- Home page ----- */
 
-.custom-card {
-    text-align: right;
-    border: none;
+.hero-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: url('../../../static/images/hero-bg.jpg') repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 99vh;
 }
 
-.custom-card .card-title {
-    text-transform: uppercase;
+.hero-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero-text {
+    font-family: 'Bebas Neue';
+    font-size: 5em;
+    text-shadow: 0 0 1em #242424, 0 0 0.2em #242424;
 }
 
 
