@@ -81,34 +81,34 @@
             <div class="col-12 mb-5">
                 <table class="table">
                     <thead>
-                        <tr>
-                            <th scope="col">
-                                Order number
-                            </th>
-                            <th scope="col">
-                                Date
-                            </th>
-                            <th scope="col" class="text-end">
-                                Grand Total
-                            </th>
-                        </tr>
+                    <tr>
+                        <th scope="col">
+                            Order number
+                        </th>
+                        <th scope="col">
+                            Date
+                        </th>
+                        <th scope="col" class="text-end">
+                            Grand Total
+                        </th>
+                    </tr>
                     </thead>
                     <tbody>
-                        {% for order in orders %}
-                        <tr>
-                            <th scope="row" class="py-3">
-                                <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
-                                    #{{ order.order_number|truncatechars:10 }}
-                                </a>
-                            </th>
-                            <td class="py-3">
-                                {{ order.date }}
-                            </td>
-                            <td class="text-end py-3">
-                                £{{ order.grand_total }}
-                            </td>
-                        </tr>
-                        {% endfor %}
+                    {% for order in orders %}
+                    <tr>
+                        <th scope="row" class="py-3">
+                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
+                                #{{ order.order_number|truncatechars:10 }}
+                            </a>
+                        </th>
+                        <td class="py-3">
+                            {{ order.date }}
+                        </td>
+                        <td class="text-end py-3">
+                            £{{ order.grand_total }}
+                        </td>
+                    </tr>
+                    {% endfor %}
                 </table>
             </div>
             <div class="d-flex align-items-center my-3">
@@ -129,7 +129,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 {% endblock %}

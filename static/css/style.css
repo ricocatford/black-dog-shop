@@ -108,6 +108,14 @@ body {
 }
 
 
+/* ----- Delivery banner ----- */
+
+.delivery-banner {
+    background: #242424;
+    --bs-gutter-x: 0;
+}
+
+
 /* ----- Footer ----- */
 
 .footer-icon {
@@ -161,7 +169,7 @@ a:focus {
 /* ----- Container ----- */
 
 .custom-container {
-    min-height: calc(100vh - 424px);
+    min-height: calc(100vh - 470px);
 }
 
 
