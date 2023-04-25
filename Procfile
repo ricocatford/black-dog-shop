@@ -1,0 +1,1 @@
+web: gunicorn black_dog_shop.wsgi:application
