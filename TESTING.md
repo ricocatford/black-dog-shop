@@ -17,8 +17,8 @@ ensure it's working as expected in other browsers.
 | **Clothing link**           |        Clicked        | Opens up dropdown list with corresponding categories                   |    **Pass**     |
 | **Skateboards link**        |        Clicked        | Opens up dropdown list with corresponding categories                   |    **Pass**     |
 | **Categories links**        |        Clicked        | Goes to Products catalog page filtering only for the selected category |    **Pass**     |
-| **Product management link** |        Clicked        | Goes to Add a Product page (only for Admin/Superusers)                 |    **Pass**     |
-| **My Profile link**         |        Clicked        | Goes to User's Profile page (only for Registered users)                |    **Pass**     |
+| **Product management link** |        Clicked        | Goes to Add a Product page (shows only for Admin/Superusers)           |    **Pass**     |
+| **My Profile link**         |        Clicked        | Goes to User's Profile page (shows only for Registered users)          |    **Pass**     |
 | **Shopping Bag link**       |        Clicked        | Goes to Shopping Bag page                                              |    **Pass**     |
 | **Register link**           |        Clicked        | Goes to Sign up page                                                   |    **Pass**     |
 | **Login link**              |        Clicked        | Goes to Sign in page                                                   |    **Pass**     |
@@ -92,9 +92,32 @@ ensure it's working as expected in other browsers.
 | **Form**                   | Filled up with current and new passwords | Works as expected                                       |    **Pass**     |
 | **Change password button** |                 Clicked                  | Changes account password and redirects to the same page |    **Pass**     |
 
+### Home page
 
+| **Element / Feature** |      **Test performed**      | **Result**                                   | **Pass / Fail** |
+|:----------------------|:----------------------------:|:---------------------------------------------|:---------------:|
+| **Background Image**  | Visited page, resized screen | It covers all of the background in Home page |    **Pass**     |
+| **Shop now link**     |           Clicked            | Goes to Products catalog page                |    **Pass**     |
 
+### Products catalog page
 
+| **Element / Feature**                                       |               **Test performed**               | **Result**                                                                         | **Pass / Fail** |
+|:------------------------------------------------------------|:----------------------------------------------:|:-----------------------------------------------------------------------------------|:---------------:|
+| **Products grid**                                           | Visited page, resized screen, clicked products | Page renders OK, is responsive and redirects to corresponding product when clicked |    **Pass**     |
+| **Sort by price link**                                      |                    Clicked                     | Opens up dropdown list with filtering options: Low to High and High to Low         |    **Pass**     |
+| **Sort by price: Low to High**                              |                    Clicked                     | Filters all products starting from lowest to highest prices                        |    **Pass**     |
+| **Sort by price: High to Low**                              |                    Clicked                     | Filters all products starting from highest to lowest prices                        |    **Pass**     |
+| **Sort by price: Low to High (while selecting a category)** |                    Clicked                     | Filters current category products starting from lowest to highest prices           |    **Pass**     |
+| **Sort by price: High to Low (while selecting a category)** |                    Clicked                     | Filters current category products starting from highest to lowest prices           |    **Pass**     |
 
+### Product details page
 
+| **Element / Feature** |           **Test performed**            | **Result**                                                                            | **Pass / Fail** |
+|:----------------------|:---------------------------------------:|:--------------------------------------------------------------------------------------|:---------------:|
+| **Page**              |      Visited page, resized screen       | Page renders OK, is responsive and shows the right product                            |    **Pass**     |
+| **Three dots button** |                 Clicked                 | Opens up dropdown list with Edit and Delete options (shows only for Admin/Superusers) |    **Pass**     |
+| **Edit link**         |                 Clicked                 | Goes to Edit product page for the selected product (shows only for Admin/Superusers)  |    **Pass**     |
+| **Delete link**       |                 Clicked                 | Deletes current selected product (shows only for Admin/Superusers)                    |    **Pass**     |
+| **Form**              | Selected different sizes and quantities | Works as expected                                                                     |    **Pass**     |
+| **Add to Bag button** |                 Clicked                 | Adds item with correct size and quantity to the Shopping bag                          |    **Pass**     |
 
