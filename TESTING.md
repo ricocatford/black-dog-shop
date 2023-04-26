@@ -45,7 +45,7 @@ ensure it's working as expected in other browsers.
 
 | **Element / Feature**             |         **Test performed**         | **Result**                                                        | **Pass / Fail** |
 |:----------------------------------|:----------------------------------:|:------------------------------------------------------------------|:---------------:|
-| **Inputs**                        | Filled up with new account details | Works as expected                                                 |    **Pass**     |
+| **Form**                          | Filled up with new account details | Works as expected                                                 |    **Pass**     |
 | **Already have an account? link** |              Clicked               | Goes to Sign in page                                              |    **Pass**     |
 | **New account**                   |        Created new account         | Creates new account and redirects to Email verification sent page |    **Pass**     |
 | **Email verification link**       |              Clicked               | Activates the account and redirects to Confirm email page         |    **Pass**     |
@@ -60,16 +60,29 @@ ensure it's working as expected in other browsers.
 
 | **Element / Feature**     |                  **Test performed**                  | **Result**                             | **Pass / Fail** |
 |:--------------------------|:----------------------------------------------------:|:---------------------------------------|:---------------:|
-| **Inputs**                |            Filled up with account details            | Works as expected                      |    **Pass**     |
+| **Form**                  |            Filled up with account details            | Works as expected                      |    **Pass**     |
 | **Sign In button**        | Clicked after filling up inputs with correct details | Logs you in and redirects to Home page |    **Pass**     |
 | **Forgot password? link** |                       Clicked                        | Goes to Password reset page            |    **Pass**     |
+
+### Sign out page
+
+| **Element / Feature** | **Test performed** | **Result**                               | **Pass / Fail** |
+|:----------------------|:------------------:|:-----------------------------------------|:---------------:|
+| **Sign out button**   |      Clicked       | Signs you out and redirects to Home page |    **Pass**     |
 
 ### Password reset page
 
 | **Element / Feature**   |           **Test performed**            | **Result**                                                                                                      | **Pass / Fail** |
 |:------------------------|:---------------------------------------:|:----------------------------------------------------------------------------------------------------------------|:---------------:|
-| **Email input**         | Filled up with associated email address | Sends email with password reset link and redirects to confirmation page stating the email was sent successfully |    **Pass**     |
+| **Form**                | Filled up with associated email address | Sends email with password reset link and redirects to confirmation page stating the email was sent successfully |    **Pass**     |
 | **Password reset link** |                 Clicked                 | Redirects to New password page                                                                                  |    **Pass**     |
+
+### New password page
+
+| **Element / Feature** |     **Test performed**      | **Result**                                                                                                 | **Pass / Fail** |
+|:----------------------|:---------------------------:|:-----------------------------------------------------------------------------------------------------------|:---------------:|
+| **Form**              | Filled up with new password | Sets account new password and redirects to confirmation page stating the password was changed successfully |    **Pass**     |
+
 
 
 
