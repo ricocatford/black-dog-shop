@@ -209,7 +209,7 @@ I have used my own local environment using PyCharm as my main IDE. As mentioned 
 
 For my environment variables during local development I put them into a env.py file and made sure I added it to .gitignore in order to avoid compromising my secret keys in any commit to GitHub. It's important to avoid this at all costs.
 
-Note: **even deleting them afterwards would compromise them because people can search through your commits and find them anyways.**
+Note: **even deleting them afterwards would compromise them because people can search through your commits and find them anyway.**
 
 ### Deployment
 Before deploying the website I had to connect to ElephantSQL and load all the data I had for categories and products in my local environment.
