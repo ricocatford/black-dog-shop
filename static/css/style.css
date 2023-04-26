@@ -359,3 +359,9 @@ a:focus {
         display: none;
     }
 }
+
+@media (min-width: 280px) and (max-width: 992px) {
+    .hero-text {
+        font-size: 3.5em;
+    }
+}
