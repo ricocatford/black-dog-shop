@@ -72,16 +72,26 @@ ensure it's working as expected in other browsers.
 
 ### Password reset page
 
-| **Element / Feature**   |           **Test performed**            | **Result**                                                                                                      | **Pass / Fail** |
-|:------------------------|:---------------------------------------:|:----------------------------------------------------------------------------------------------------------------|:---------------:|
-| **Form**                | Filled up with associated email address | Sends email with password reset link and redirects to confirmation page stating the email was sent successfully |    **Pass**     |
-| **Password reset link** |                 Clicked                 | Redirects to New password page                                                                                  |    **Pass**     |
+| **Element / Feature**     |           **Test performed**            | **Result**                                                                                                      | **Pass / Fail** |
+|:--------------------------|:---------------------------------------:|:----------------------------------------------------------------------------------------------------------------|:---------------:|
+| **Form**                  | Filled up with associated email address | Works as expected                                                                                               |    **Pass**     |
+| **Password reset button** |                 Clicked                 | Sends email with password reset link and redirects to confirmation page stating the email was sent successfully |    **Pass**     |
+| **Password reset link**   |                 Clicked                 | Redirects to New password page                                                                                  |    **Pass**     |
 
 ### New password page
 
-| **Element / Feature** |     **Test performed**      | **Result**                                                                                                 | **Pass / Fail** |
-|:----------------------|:---------------------------:|:-----------------------------------------------------------------------------------------------------------|:---------------:|
-| **Form**              | Filled up with new password | Sets account new password and redirects to confirmation page stating the password was changed successfully |    **Pass**     |
+| **Element / Feature**      |     **Test performed**      | **Result**                                                                                                 | **Pass / Fail** |
+|:---------------------------|:---------------------------:|:-----------------------------------------------------------------------------------------------------------|:---------------:|
+| **Form**                   | Filled up with new password | Works as expected                                                                                          |    **Pass**     |
+| **Change password button** |           Clicked           | Sets account new password and redirects to confirmation page stating the password was changed successfully |    **Pass**     |
+
+### Change password page
+
+| **Element / Feature**      |            **Test performed**            | **Result**                                              | **Pass / Fail** |
+|:---------------------------|:----------------------------------------:|:--------------------------------------------------------|:---------------:|
+| **Form**                   | Filled up with current and new passwords | Works as expected                                       |    **Pass**     |
+| **Change password button** |                 Clicked                  | Changes account password and redirects to the same page |    **Pass**     |
+
 
 
 
