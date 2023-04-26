@@ -207,7 +207,7 @@ In order to avoid making this section very large, I will mention the core tables
 ### Installation and Development
 I have used my own local environment using PyCharm as my main IDE. As mentioned above I have used Python 3.10 and on top of it, Django for routing and rendering HTML templates.
 
-For my environment variables during local development I put them into a "env.py" file and made sure I added it to ".gitignore" in order to avoid compromising my secret keys in any commit to GitHub. It's important to avoid this at all costs.
+For my environment variables during local development I put them into a env.py file and made sure I added it to .gitignore in order to avoid compromising my secret keys in any commit to GitHub. It's important to avoid this at all costs.
 
 Note: **even deleting them afterwards would compromise them because people can search through your commits and find them anyways.**
 
