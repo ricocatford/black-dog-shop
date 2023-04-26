@@ -88,7 +88,7 @@ Website/App consists of several pages, one of them is only accessible by registe
 #### **Shopping bag can be updated from its page**
 ![Shopping bag update or remove items](/static/images/readme/features_update_shopping_bag.png)
 
-#### **Business owners can add. edit or delete products, only accessible from product details page**
+#### **Business owners can add, edit or delete products, these last two are accessible from product details page**
 ![Edit or delete products](static/images/readme/features_product_management.png)
 ![Add products](static/images/readme/features_product_management_2.png)
 
@@ -146,6 +146,7 @@ This project is using Relational Database, commonly known as SQL. I've used SQLi
 
 ### Database Schema
 In order to avoid making this section very large, I will mention the core tables that I'm using for storing my data in the DB, followed by an example:
+
 - Users (automatically created by All-Auth upon registration)
 ```
     id: "12"
@@ -220,4 +221,4 @@ Next step was creating a Heroku app and followed these other steps:
 After setting Heroku app and ElephantSQL DB, last step was creating a bucket in S3 AWS that holds all my static and media files.
 
 ## 9. Testing
-All the testing can be found [HERE](https://github.com/ricocatford/black-dog-shop/blob/master/TESTING.md)
+All the testing can be found in a separate file [HERE](https://github.com/ricocatford/black-dog-shop/blob/master/TESTING.md).
