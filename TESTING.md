@@ -185,3 +185,14 @@ ensure it's working as expected in other browsers.
 | **Clear checkbox**                  |                         Clicked                         | Deletes current image and replaces it with new one, if there is any                                                                                                 |    **Pass**     |
 | **Image input: Choose file button** |                         Clicked                         | Opens up window for selecting the image to add, upon form submission it attaches selected image to the product                                                      |    **Pass**     |
 
+## 2. Security
+
+I've performed several critical tests to ensure security across the website. Below you can find all security tests as *
+*Anonymous** or **Registered User** (without *Superuser* permissions):
+
+| **Element / Feature**           |                                      **Test performed**                                       | **Result**                                                                            | **Pass / Fail** |
+|:--------------------------------|:---------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------|:---------------:|
+| **Add a product endpoint**      |   Visited page by typing in the URL bar: "https://blackdogshop.herokuapp.com/products/add/"   | Redirects to Sign in page                                                             |    **Pass**     |
+| **Edit product endpoint**       |  Visited page by typing in the URL bar: "https://blackdogshop.herokuapp.com/products/edit/2"  | Redirects to Sign in page                                                             |    **Pass**     |
+| **Delete product endpoint**     | Visited page by typing in the URL bar: "https://blackdogshop.herokuapp.com/products/delete/2" | Redirects to Sign in page                                                             |    **Pass**     |
+| **Django administration panel** |       Visited page by typing in the URL bar: "https://blackdogshop.herokuapp.com/admin"       | Says you are authenticated as {username} and does not allow you to log into the panel |    **Pass**     |
