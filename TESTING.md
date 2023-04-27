@@ -59,11 +59,11 @@ ensure it's working as expected in other browsers.
 
 ### Sign in page
 
-| **Element / Feature**     |                  **Test performed**                  | **Result**                             | **Pass / Fail** |
-|:--------------------------|:----------------------------------------------------:|:---------------------------------------|:---------------:|
-| **Form**                  |            Filled up with account details            | Works as expected                      |    **Pass**     |
-| **Sign In button**        | Clicked after filling up inputs with correct details | Logs you in and redirects to Home page |    **Pass**     |
-| **Forgot password? link** |                       Clicked                        | Goes to Password reset page            |    **Pass**     |
+| **Element / Feature**     |                 **Test performed**                  | **Result**                             | **Pass / Fail** |
+|:--------------------------|:---------------------------------------------------:|:---------------------------------------|:---------------:|
+| **Form**                  |           Filled up with account details            | Works as expected                      |    **Pass**     |
+| **Sign In button**        |                       Clicked                       | Logs you in and redirects to Home page |    **Pass**     |
+| **Forgot password? link** |                       Clicked                       | Goes to Password reset page            |    **Pass**     |
 
 ### Sign out page
 
@@ -151,7 +151,24 @@ ensure it's working as expected in other browsers.
 
 | **Element / Feature** |       **Test performed**        | **Result**                                                                    | **Pass / Fail** |
 |:----------------------|:-------------------------------:|:------------------------------------------------------------------------------|:---------------:|
-| **Page**              |  Visited page, resized screen   | Page renders OK, is responsive and shows all products for the order placed,   |    **Pass**     |
+| **Page**              |  Visited page, resized screen   | Page renders OK, is responsive and shows all products for the order placed    |    **Pass**     |
 | **Order details**     | Visited page upon placing order | Shows order number, date and delivery information (full name and address)     |    **Pass**     |
 | **Order summary**     | Visited page upon placing order | Shows all the products for the order placed with its corresponding total cost |    **Pass**     |
 
+### User's Profile page 
+
+| **Element / Feature**         |      **Test performed**      | **Result**                                                                                                                             | **Pass / Fail** |
+|:------------------------------|:----------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
+| **Page**                      | Visited page, resized screen | Page renders OK, is responsive and shows all as expected                                                                               |    **Pass**     |
+| **Delivery information form** |  Filled up with new details  | Works as expected                                                                                                                      |    **Pass**     |
+| **Save changes button**       |           Clicked            | Saves information in the current form, when placing new order all details are updated correctly                                        |    **Pass**     |
+| **Changed password link**     |           Clicked            | Goes to Change password page                                                                                                           |    **Pass**     |
+| **Order history table**       |         Visited page         | Shows all orders placed with associated profile                                                                                        |    **Pass**     |
+| **Order link**                |           Clicked            | Goes to Checkout success page for the selected order, it does not show green box with confirmation text and shows Back to profile link |    **Pass**     |
+
+### Add a product page 
+
+| **Element / Feature** |                              **Test performed**                              | **Result**                                                            | **Pass / Fail** |
+|:----------------------|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------|:---------------:|
+| **Page**              |                         Visited page, resized screen                         | Page renders OK and is responsive (shows only for Admin/Superusers) |    **Pass**     |
+| **Form**              | Filled up with correct details, also with incorrect or missing details/image | Page renders OK and is responsive (shows only for Admin/Superusers) |    **Pass**     |
