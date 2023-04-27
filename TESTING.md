@@ -1,4 +1,4 @@
-[# Testing
+# Testing
 
 ## 1. Functionality
 
@@ -197,5 +197,34 @@ I've performed several critical tests to ensure security across the website. Bel
 | **Django administration panel** |       Visited page by typing in the URL bar: https://blackdogshop.herokuapp.com/admin       | Says you are authenticated as {username} and does not allow you to log into the panel |    **Pass**     |
 
 ## 3. Code Validation
+
 ### HTML files
-I've validated all HTML files using 
+
+I've validated all HTML files using [W3C-Validator](https://validator.w3.org/), with only a 'Warning' for adding type
+attribute to script link:
+![HTML Validation](static/images/readme/html_validation.png)
+
+### CSS file
+
+I've validated 'style.css' file using [CSS-Validator](https://jigsaw.w3.org/css-validator/validator). No errors found so
+far:
+![CSS Validation](static/images/readme/css_validation.png)
+
+## 4. Performance
+
+I've tested performance through Lighthouse Chrome extension, below you can find the results:
+![Lighthouse report](static/images/readme/lighthouse_report.png)
+
+## 5. Bugs
+
+### Solved bugs
+
+Throughout development, I've encountered quite a few critical bugs that gave me a bit of a headache, all of them were eventually
+solved. Below you can find a list of the commits where they have been solved:
+
+- Checkout form was not working at all: fixed in commit [f318675daefba0b903159267c87798ac11eff9cd](https://github.com/ricocatford/black-dog-shop/commit/f318675daefba0b903159267c87798ac11eff9cd)
+- Stripe was creating Payment intents but was not proceeding with them: fixed in commit [f862061df228b3136e0d054ad1cdd3bf45ed12fe](https://github.com/ricocatford/black-dog-shop/commit/f862061df228b3136e0d054ad1cdd3bf45ed12fe)
+- Product management features were not working due to syntax error: fixed in commit [267644f01dc41fb251a8a4506e0f93058f907900](https://github.com/ricocatford/black-dog-shop/commit/267644f01dc41fb251a8a4506e0f93058f907900)
+- Anonymous users were unable to checkout: fixed in commit [c5e5b624c647627020c81e13daee00452e3fa829](https://github.com/ricocatford/black-dog-shop/commit/c5e5b624c647627020c81e13daee00452e3fa829)
+
+
