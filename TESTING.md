@@ -1,4 +1,32 @@
 # Testing
+- [Testing](#testing)
+  - [1. Functionality](#1-functionality)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+    - [Register page](#register-page)
+    - [Confirm email page](#confirm-email-page)
+    - [Sign in page](#sign-in-page)
+    - [Sign out page](#sign-out-page)
+    - [Password reset page](#password-reset-page)
+    - [New password page](#new-password-page)
+    - [Change password page](#change-password-page)
+    - [Home page](#home-page)
+    - [Products catalog page](#products-catalog-page)
+    - [Product details page](#product-details-page)
+    - [Shopping bag page](#shopping-bag-page)
+    - [Checkout page](#checkout-page)
+    - [Checkout success page](#checkout-success-page)
+    - [User's Profile page](#users-profile-page)
+    - [Add a product page](#add-a-product-page)
+    - [Edit product page](#edit-product-page)
+  - [2. Security](#2-security)
+  - [3. Code Validation](#3-code-validation)
+    - [HTML files](#html-files)
+    - [CSS file](#css-file)
+  - [4. Performance](#4-performance)
+  - [5. Bugs](#5-bugs)
+    - [Solved bugs](#solved-bugs)
+    - [Unsolved bugs](#unsolved-bugs)
 
 ## 1. Functionality
 
@@ -218,13 +246,14 @@ I've tested performance through Lighthouse Chrome extension, below you can find 
 ## 5. Bugs
 
 ### Solved bugs
-
-Throughout development, I've encountered quite a few critical bugs that gave me a bit of a headache, all of them were eventually
+During development, I've encountered quite a few critical bugs that gave me a bit of a headache, all of them were eventually
 solved. Below you can find a list of the commits where they have been solved:
 
 - Checkout form was not working at all: fixed in commit [f318675daefba0b903159267c87798ac11eff9cd](https://github.com/ricocatford/black-dog-shop/commit/f318675daefba0b903159267c87798ac11eff9cd)
 - Stripe was creating Payment intents but was not proceeding with them: fixed in commit [f862061df228b3136e0d054ad1cdd3bf45ed12fe](https://github.com/ricocatford/black-dog-shop/commit/f862061df228b3136e0d054ad1cdd3bf45ed12fe)
 - Product management features were not working due to syntax error: fixed in commit [267644f01dc41fb251a8a4506e0f93058f907900](https://github.com/ricocatford/black-dog-shop/commit/267644f01dc41fb251a8a4506e0f93058f907900)
 - Anonymous users were unable to checkout: fixed in commit [c5e5b624c647627020c81e13daee00452e3fa829](https://github.com/ricocatford/black-dog-shop/commit/c5e5b624c647627020c81e13daee00452e3fa829)
+- Products with no image attached were not rendering 'noimage.png' from media folder, ended up duplicating this image and putting it into static folder: fixed in commit [1c487366152acbb57e6c11ada8ee939eaf6184bd](https://github.com/ricocatford/black-dog-shop/commit/1c487366152acbb57e6c11ada8ee939eaf6184bd)
 
-
+### Unsolved bugs
+The only unsolved bug so far it has to do with Home background image when viewing website with some mobile phone devices (tested on iPhone 14 and Huawei 2019). When you open up mobile navbar, the image doesn't expand as expected and remains fixed instead. Anyway, it does not have much impact for the user experience and would like to solve it in the near future.
