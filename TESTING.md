@@ -256,4 +256,4 @@ solved. Below you can find a list of the commits where they have been solved:
 - Products with no image attached were not rendering 'noimage.png' from media folder, ended up duplicating this image and putting it into static folder: fixed in commit [1c487366152acbb57e6c11ada8ee939eaf6184bd](https://github.com/ricocatford/black-dog-shop/commit/1c487366152acbb57e6c11ada8ee939eaf6184bd)
 
 ### Unsolved bugs
-The only unsolved bug so far it has to do with Home background image when viewing website with some mobile phone devices (tested on iPhone 14 and Huawei 2019). When you open up mobile navbar, the image doesn't expand as expected and remains fixed instead. Anyway, it does not have much impact for the user experience and would like to solve it in the near future.
+The only unsolved bug so far it has to do with Home background image when viewing the website with some mobile phone devices (tested on iPhone 14 and Huawei 2019). When you open up mobile navbar, the image doesn't expand as expected and remains fixed instead. Anyway, it does not have much impact for the user experience and would like to solve it in the near future.
