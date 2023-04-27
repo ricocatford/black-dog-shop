@@ -59,11 +59,11 @@ ensure it's working as expected in other browsers.
 
 ### Sign in page
 
-| **Element / Feature**     |                 **Test performed**                  | **Result**                             | **Pass / Fail** |
-|:--------------------------|:---------------------------------------------------:|:---------------------------------------|:---------------:|
-| **Form**                  |           Filled up with account details            | Works as expected                      |    **Pass**     |
-| **Sign In button**        |                       Clicked                       | Logs you in and redirects to Home page |    **Pass**     |
-| **Forgot password? link** |                       Clicked                       | Goes to Password reset page            |    **Pass**     |
+| **Element / Feature**     |       **Test performed**       | **Result**                             | **Pass / Fail** |
+|:--------------------------|:------------------------------:|:---------------------------------------|:---------------:|
+| **Form**                  | Filled up with account details | Works as expected                      |    **Pass**     |
+| **Sign In button**        |            Clicked             | Logs you in and redirects to Home page |    **Pass**     |
+| **Forgot password? link** |            Clicked             | Goes to Password reset page            |    **Pass**     |
 
 ### Sign out page
 
@@ -155,7 +155,7 @@ ensure it's working as expected in other browsers.
 | **Order details**     | Visited page upon placing order | Shows order number, date and delivery information (full name and address)     |    **Pass**     |
 | **Order summary**     | Visited page upon placing order | Shows all the products for the order placed with its corresponding total cost |    **Pass**     |
 
-### User's Profile page 
+### User's Profile page
 
 | **Element / Feature**         |      **Test performed**      | **Result**                                                                                                                             | **Pass / Fail** |
 |:------------------------------|:----------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
@@ -166,9 +166,22 @@ ensure it's working as expected in other browsers.
 | **Order history table**       |         Visited page         | Shows all orders placed with associated profile                                                                                        |    **Pass**     |
 | **Order link**                |           Clicked            | Goes to Checkout success page for the selected order, it does not show green box with confirmation text and shows Back to profile link |    **Pass**     |
 
-### Add a product page 
+### Add a product page
 
-| **Element / Feature** |                              **Test performed**                              | **Result**                                                            | **Pass / Fail** |
-|:----------------------|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------|:---------------:|
-| **Page**              |                         Visited page, resized screen                         | Page renders OK and is responsive (shows only for Admin/Superusers) |    **Pass**     |
-| **Form**              | Filled up with correct details, also with incorrect or missing details/image | Page renders OK and is responsive (shows only for Admin/Superusers) |    **Pass**     |
+| **Element / Feature**               |                              **Test performed**                              | **Result**                                                                                                     | **Pass / Fail** |
+|:------------------------------------|:----------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------|:---------------:|
+| **Page**                            |                         Visited page, resized screen                         | Page renders OK and is responsive (shows only for Admin/Superusers)                                            |    **Pass**     |
+| **Form**                            | Filled up with correct details, also with incorrect or missing details/image | Works as expected, if there is any missing required field or incorrect field it doesn't allow you to submit it |    **Pass**     |
+| **Add product button**              |                                   Clicked                                    | Adds product to the shop, goes to new added product details page                                               |    **Pass**     |
+| **Image input: Choose file button** |                                   Clicked                                    | Opens up window for selecting the image to add, upon form submission it attaches selected image to the product |    **Pass**     |
+
+### Edit product page
+
+| **Element / Feature**               |                   **Test performed**                    | **Result**                                                                                                                                                          | **Pass / Fail** |
+|:------------------------------------|:-------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
+| **Page**                            |              Visited page, resized screen               | Page renders OK and is responsive (shows only for Admin/Superusers)                                                                                                 |    **Pass**     |
+| **Form**                            | Changed details, also with incorrect or missing details | Works as expected, its filled up with current product details by default                                                                                            |    **Pass**     |
+| **Edit product button**             |                         Clicked                         | Edits product in the shop if there is any change, goes to edited product details page, if there is any missing or incorrect field it doesn't allow you to submit it |    **Pass**     |
+| **Clear checkbox**                  |                         Clicked                         | Deletes current image and replaces it with new one, if there is any                                                                                                 |    **Pass**     |
+| **Image input: Choose file button** |                         Clicked                         | Opens up window for selecting the image to add, upon form submission it attaches selected image to the product                                                      |    **Pass**     |
+
