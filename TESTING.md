@@ -114,10 +114,35 @@ ensure it's working as expected in other browsers.
 
 | **Element / Feature** |           **Test performed**            | **Result**                                                                            | **Pass / Fail** |
 |:----------------------|:---------------------------------------:|:--------------------------------------------------------------------------------------|:---------------:|
-| **Page**              |      Visited page, resized screen       | Page renders OK, is responsive and shows the right product                            |    **Pass**     |
+| **Page**              |      Visited page, resized screen       | Page renders OK, is responsive and shows corresponding product                        |    **Pass**     |
 | **Three dots button** |                 Clicked                 | Opens up dropdown list with Edit and Delete options (shows only for Admin/Superusers) |    **Pass**     |
 | **Edit link**         |                 Clicked                 | Goes to Edit product page for the selected product (shows only for Admin/Superusers)  |    **Pass**     |
 | **Delete link**       |                 Clicked                 | Deletes current selected product (shows only for Admin/Superusers)                    |    **Pass**     |
 | **Form**              | Selected different sizes and quantities | Works as expected                                                                     |    **Pass**     |
 | **Add to Bag button** |                 Clicked                 | Adds item with correct size and quantity to the Shopping bag                          |    **Pass**     |
+
+### Shopping bag page
+
+| **Element / Feature**   |                             **Test performed**                              | **Result**                                                                                         | **Pass / Fail** |
+|:------------------------|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------|:---------------:|
+| **Page**                |                        Visited page, resized screen                         | Page renders OK, is responsive and shows all products in the bag                                   |    **Pass**     |
+| **Product name**        |                                   Clicked                                   | Goes to the corresponding Product details page                                                     |    **Pass**     |
+| **Update link**         |                                   Clicked                                   | Shows form for updating the product, when clicked a second time it hides the form                  |    **Pass**     |
+| **Remove link**         |                                   Clicked                                   | Removes product from the bag                                                                       |    **Pass**     |
+| **Update product form** |                        Changed sizes and quantities                         | Works as expected                                                                                  |    **Pass**     |
+| **Confirm button**      |                                   Clicked                                   | Updates product with new size and/or quantity                                                      |    **Pass**     |
+| **Bag total**           |                          Added or removed products                          | Updates bag total amount with correct total                                                        |    **Pass**     |
+| **Delivery cost**       | Added product under £50 total, added more products for going over threshold | Shows correct amount of delivery cost (10%), if it's over £50 worth of products delivery cost is 0 |    **Pass**     |
+| **Grand Total**         |                          Added or removed products                          | Updates Grand Total with correct amount (bag total + delivery cost if there is any)                |    **Pass**     |
+| **Go checkout link**    |                                   Clicked                                   | Goes to Checkout page with current product(s) in the bag                                           |    **Pass**     |
+
+### Checkout page
+
+| **Element / Feature**    |                                                               **Test performed**                                                                | **Result**                                                                                                                                                 | **Pass / Fail** |
+|:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
+| **Page**                 |                                                          Visited page, resized screen                                                           | Page renders OK, is responsive and shows all selected products for the order                                                                               |    **Pass**     |
+| **Form**                 |                                                       Filled up with all required details                                                       | Works as expected, does autofocus to Full Name input                                                                                                       |    **Pass**     |
+| **Stripe payment input** | Filled up with valid credit card number, filled up with test card that prompts further authorization, filled up with invalid credit card number | Validates card number, prompts further authorization upon placing order, display errors if invalid credit card number or if the expiry date is in the past |    **Pass**     |
+| **Place order button**   |                                                                     Clicked                                                                     | Places order in the database and creates Stripe payment intent, displays overlay with loading spinner and redirects to Checkout success page               |    **Pass**     |
+
 
