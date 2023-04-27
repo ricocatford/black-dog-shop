@@ -1,11 +1,12 @@
-# Testing
+[# Testing
 
 ## 1. Functionality
 
 I've performed regular manual tests throughout development for the usability and performance of the website. Below you
 can find all tests performed to the different elements and features. All tests were carried out in Chrome browser which
 is
-my preferred one and the most used nowadays. Also, I've performed some of these tests in Microsoft Edge and Safari to
+my preferred one and the most used nowadays. Also, I've performed some of these tests in Microsoft Edge, Mozilla Firefox
+and Safari to
 ensure it's working as expected in other browsers.
 
 ### Navbar
@@ -141,8 +142,16 @@ ensure it's working as expected in other browsers.
 | **Element / Feature**    |                                                               **Test performed**                                                                | **Result**                                                                                                                                                 | **Pass / Fail** |
 |:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------:|
 | **Page**                 |                                                          Visited page, resized screen                                                           | Page renders OK, is responsive and shows all selected products for the order                                                                               |    **Pass**     |
-| **Form**                 |                                                       Filled up with all required details                                                       | Works as expected, does autofocus to Full Name input                                                                                                       |    **Pass**     |
+| **Form**                 |                                                       Filled up with all required details                                                       | Works as expected, does autofocus to Full Name input, shows Save info checkbox (only for Registered users)                                                 |    **Pass**     |
+| **Save info checkbox**   |                                                                     Clicked                                                                     | Saves current form info into User's Profile                                                                                                                |    **Pass**     |
 | **Stripe payment input** | Filled up with valid credit card number, filled up with test card that prompts further authorization, filled up with invalid credit card number | Validates card number, prompts further authorization upon placing order, display errors if invalid credit card number or if the expiry date is in the past |    **Pass**     |
 | **Place order button**   |                                                                     Clicked                                                                     | Places order in the database and creates Stripe payment intent, displays overlay with loading spinner and redirects to Checkout success page               |    **Pass**     |
 
+### Checkout success page
+
+| **Element / Feature** |       **Test performed**        | **Result**                                                                    | **Pass / Fail** |
+|:----------------------|:-------------------------------:|:------------------------------------------------------------------------------|:---------------:|
+| **Page**              |  Visited page, resized screen   | Page renders OK, is responsive and shows all products for the order placed,   |    **Pass**     |
+| **Order details**     | Visited page upon placing order | Shows order number, date and delivery information (full name and address)     |    **Pass**     |
+| **Order summary**     | Visited page upon placing order | Shows all the products for the order placed with its corresponding total cost |    **Pass**     |
 
